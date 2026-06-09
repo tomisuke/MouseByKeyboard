@@ -33,7 +33,7 @@ class App:
         self._registered_hotkeys: list = []
         self._kb_hook = None          # keyboard suppress フック
         self._safety_timer: Optional[threading.Timer] = None
-        self._search_method = 'uia'
+        self._search_method = 'hybrid'
         self._last_active_only = False
 
         # オーバーレイ: tkinterキーバインドも持つ（フォーカスが取れた場合の補助）
@@ -181,15 +181,7 @@ class App:
         
         # Determine default search method if not forced
         if force_method is None:
-            if self._focus_hwnd:
-                cls = win32gui.GetClassName(self._focus_hwnd)
-                # Auto-select image mode for browsers and Electron apps (e.g. Chrome, VS Code, Discord)
-                if cls in ('Chrome_WidgetWin_1', 'MozillaWindowClass'):
-                    self._search_method = 'image'
-                else:
-                    self._search_method = 'uia'
-            else:
-                self._search_method = 'uia'
+            self._search_method = 'hybrid'
         else:
             self._search_method = force_method
 
@@ -201,6 +193,8 @@ class App:
             if self._search_method == 'image':
                 elements = (self._scanner.scan_active_image() if active_only
                             else self._scanner.scan_all_image())
+            elif self._search_method == 'hybrid':
+                elements = self._scanner.scan_hybrid(active_only)
             else:
                 elements = (self._scanner.scan_active() if active_only
                             else self._scanner.scan_all())
@@ -275,7 +269,12 @@ class App:
             self._process_hint_char(name)
 
     def _toggle_search_method(self) -> None:
-        next_method = 'image' if self._search_method == 'uia' else 'uia'
+        if self._search_method == 'hybrid':
+            next_method = 'uia'
+        elif self._search_method == 'uia':
+            next_method = 'image'
+        else:
+            next_method = 'hybrid'
         print(f'[KN] Toggling search method to {next_method}')
         self._start_scan(active_only=self._last_active_only, force_method=next_method)
 

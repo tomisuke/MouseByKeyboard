@@ -168,8 +168,15 @@ class HintOverlay:
         if hasattr(self, '_method_id') and self._method_id is not None:
             self._canvas.delete(self._method_id)
         
-        label = "[ UI ELEMENT SEARCH ]" if method == 'uia' else "[ IMAGE SEARCH (OCR/CV) ]"
-        color = "#4D96FF" if method == 'uia' else "#FFB72B"
+        if method == 'hybrid':
+            label = "[ HYBRID SEARCH (UIA + IMAGE) ]"
+            color = "#A855F7"
+        elif method == 'uia':
+            label = "[ UI ELEMENT SEARCH ]"
+            color = "#4D96FF"
+        else:
+            label = "[ IMAGE SEARCH (OCR/CV) ]"
+            color = "#FFB72B"
         
         self._method_id = self._canvas.create_text(
             self._vw // 2, 60,

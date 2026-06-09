@@ -403,3 +403,88 @@ class Scanner:
             if wl <= cx <= wr and wt <= cy <= wb:
                 filtered.append((rect, elem))
         return filtered
+
+    def scan_hybrid(self, active_only: bool) -> list:
+        # Run UIA and image scans in parallel using separate threads
+        uia_results = []
+        image_results = []
+        
+        def run_uia():
+            nonlocal uia_results
+            try:
+                uia_results = self.scan_active() if active_only else self.scan_all()
+            except Exception as e:
+                print(f"[KN] Hybrid UIA scan error: {e}")
+                
+        def run_image():
+            nonlocal image_results
+            try:
+                image_results = self.scan_active_image() if active_only else self.scan_all_image()
+            except Exception as e:
+                print(f"[KN] Hybrid image scan error: {e}")
+                
+        t_uia = threading.Thread(target=run_uia, daemon=True)
+        t_img = threading.Thread(target=run_image, daemon=True)
+        
+        t_uia.start()
+        t_img.start()
+        
+        t_uia.join()
+        t_img.join()
+        
+        # Merge results and resolve overlaps
+        final_elements = list(uia_results)
+        uia_rects = [r for r, _ in uia_results]
+        
+        import comtypes
+        import uiautomation as auto
+        
+        com_initialized = False
+        try:
+            comtypes.CoInitialize()
+            com_initialized = True
+        except Exception:
+            pass
+            
+        try:
+            for img_rect, _ in image_results:
+                cx = (img_rect.left + img_rect.right) // 2
+                cy = (img_rect.top + img_rect.bottom) // 2
+                
+                # Overlap check with existing UIA elements
+                is_duplicate = False
+                for uia_r in uia_rects:
+                    if uia_r.left <= cx <= uia_r.right and uia_r.top <= cy <= uia_r.bottom:
+                        is_duplicate = True
+                        break
+                        
+                if is_duplicate:
+                    continue
+                    
+                # Validation using ElementFromPoint
+                try:
+                    ctrl = auto.ElementFromPoint(cx, cy)
+                    if ctrl:
+                        # If it is a known clickable type, upgrade it to a full UIA element
+                        if ctrl.ControlType in CLICKABLE_TYPE_IDS:
+                            final_elements.append((ctrl.BoundingRectangle, ctrl))
+                            uia_rects.append(ctrl.BoundingRectangle)
+                            continue
+                        # Filter out very large window/pane containers as background noise
+                        elif ctrl.ControlType in (50033, 50020):  # Window, Pane
+                            if img_rect.width() > 400 or img_rect.height() > 400:
+                                continue
+                except Exception:
+                    pass
+                    
+                # Pass through the image rect if it represents a distinct element
+                final_elements.append((img_rect, None))
+        finally:
+            if com_initialized:
+                try:
+                    comtypes.CoUninitialize()
+                except Exception:
+                    pass
+                    
+        return final_elements
+

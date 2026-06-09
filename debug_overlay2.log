@@ -1,0 +1,9 @@
+=== start ===
+Config OK
+Tk root created
+Overlay created
+Scan thread started, entering mainloop
+Scanning HWND=5246380 class=CabinetWClass
+Scan done: 72 elements in 685ms
+Calling overlay.show() with 72 elements
+overlay.show() returned

@@ -1,0 +1,5 @@
+uiautomation>=2.0.18
+keyboard>=0.13.5
+pystray>=0.19.5
+Pillow>=10.0.0
+pywin32>=306

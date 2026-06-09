@@ -1,0 +1,4 @@
+Hotkeys registered. Waiting 10s...
+HOTKEY ACTIVE FIRED
+HOTKEY ALL FIRED
+Done

@@ -1,0 +1,27 @@
+- generic [ref=f41e3]:
+  - heading [level=1] [ref=f41e5]
+  - heading "株式会社マクニカ マイページログイン" [level=2] [ref=f41e6]
+  - generic [ref=f41e7]:
+    - table [ref=f41e8]:
+      - rowgroup [ref=f41e9]:
+        - row [ref=f41e10]:
+          - rowheader "ユーザーID" [ref=f41e11]
+          - cell "：" [ref=f41e12]:
+            - text: ：
+            - textbox [ref=f41e13]
+        - row [ref=f41e14]:
+          - rowheader "パスワード" [ref=f41e15]
+          - cell "：" [ref=f41e16]:
+            - text: ：
+            - textbox [ref=f41e17]
+    - paragraph:
+      - link "ログイン" [ref=f41e18] [cursor=pointer]:
+        - /url: javascript:void(0);
+    - paragraph [ref=f41e19]:
+      - link "ユーザーIDを忘れた方" [ref=f41e20] [cursor=pointer]:
+        - /url: reminder/id.aspx
+      - link "パスワードを忘れた方" [ref=f41e21] [cursor=pointer]:
+        - /url: reminder/pass.aspx
+  - paragraph [ref=f41e22]:
+    - link "マイページのご利用にあたって" [ref=f41e23] [cursor=pointer]:
+      - /url: javascript:void(0);

@@ -1,0 +1,14 @@
+- generic [ref=f28e3]:
+  - heading [level=1] [ref=f28e5]:
+    - link [ref=f28e6] [cursor=pointer]:
+      - /url: ../index.aspx
+      - img "株式会社NTTデータグループ" [ref=f28e7]
+  - generic [ref=f28e8]:
+    - generic [ref=f28e9]:
+      - heading [level=2] [ref=f28e10]
+      - paragraph [ref=f28e12]: 画面がタイムアウトしました。お手数ですが再度ログインし直してください。
+      - paragraph [ref=f28e13]:
+        - link "ログイン画面に戻る" [ref=f28e14] [cursor=pointer]:
+          - /url: javascript:__doPostBack('lkb_LogoutErr','')
+    - link "↑ページトップ" [ref=f28e17] [cursor=pointer]:
+      - /url: "#header"

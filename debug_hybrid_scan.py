@@ -14,17 +14,23 @@ def test_hybrid():
     
     print("\n--- Running UIA Scan (Active) ---")
     t0 = time.time()
-    uia_res = scanner.scan_active()
+    uia_res = []
+    for partial in scanner.scan_active():
+        uia_res.extend(partial)
     print(f"UIA Scan took {(time.time()-t0)*1000:.0f}ms, found {len(uia_res)} elements")
     
     print("\n--- Running Image Scan (Active) ---")
     t0 = time.time()
-    img_res = scanner.scan_active_image()
+    img_res = []
+    for partial in scanner.scan_active_image():
+        img_res.extend(partial)
     print(f"Image Scan took {(time.time()-t0)*1000:.0f}ms, found {len(img_res)} elements")
     
     print("\n--- Running Hybrid Scan (Active) ---")
     t0 = time.time()
-    hybrid_res = scanner.scan_hybrid(active_only=True)
+    hybrid_res = []
+    for partial in scanner.scan_hybrid(active_only=True):
+        hybrid_res.extend(partial)
     print(f"Hybrid Scan took {(time.time()-t0)*1000:.0f}ms, found {len(hybrid_res)} elements")
     
     # 比較表示

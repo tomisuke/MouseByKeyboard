@@ -1,0 +1,181 @@
+- generic [ref=f66e3]:
+  - banner [ref=f66e4]:
+    - link [ref=f66e6] [cursor=pointer]:
+      - /url: https://axol.jp/zw/s/e-nexco_28/mypage/top
+      - img "東日本高速道路株式会社のロゴ" [ref=f66e7]
+    - text: ■ ■ ■ ■
+    - generic [ref=f66e8]:
+      - button "メインコンテンツへ" [ref=f66e9] [cursor=pointer]
+      - navigation [ref=f66e10]:
+        - generic [ref=f66e11]:
+          - generic [ref=f66e12]:
+            - generic [ref=f66e13]: account_circle
+            - generic [ref=f66e14]: 石川 泰地さん
+          - generic [ref=f66e15]:
+            - generic [ref=f66e16]: ログイン回数
+            - generic [ref=f66e17]: 8 回
+          - generic [ref=f66e18]:
+            - generic [ref=f66e19]: 前回ログイン日時
+            - generic [ref=f66e20]: 2026/08/21(金) 00:02:02
+          - button "ログアウト" [ref=f66e22] [cursor=pointer]:
+            - generic [ref=f66e23]: logout
+            - text: ログアウト
+        - list [ref=f66e24]:
+          - listitem [ref=f66e25]:
+            - link "トップ" [ref=f66e26] [cursor=pointer]:
+              - /url: top
+          - listitem [ref=f66e27]:
+            - link "交通費申請" [ref=f66e28] [cursor=pointer]:
+              - /url: shl/1
+          - listitem [ref=f66e29]:
+            - link "☆東日本高速道路（NEXCO東日本）｜ワンキャリ企業説明会-☆(外部へ)" [ref=f66e30] [cursor=pointer]:
+              - /url: https://youtu.be/zprKps5ObkM
+              - strong [ref=f66e31]: ☆東日本高速道路（NEXCO東日本）｜ワンキャリ企業説明会-☆
+              - generic [ref=f66e32]: open_in_new
+          - listitem [ref=f66e33]:
+            - link "レターボックス 17" [ref=f66e34]:
+              - /url: letter
+              - text: レターボックス
+              - generic [ref=f66e35]: "17"
+          - listitem [ref=f66e36]:
+            - link "よくあるご質問" [ref=f66e37] [cursor=pointer]:
+              - /url: qa/5
+        - list [ref=f66e38]:
+          - listitem [ref=f66e39]:
+            - link "■ 交通費申請マニュアル" [ref=f66e40] [cursor=pointer]:
+              - /url: koza/27
+          - listitem [ref=f66e41]:
+            - link "交通費宿泊費についてのご案内(外部へ)" [ref=f66e42] [cursor=pointer]:
+              - /url: https://upload.axol.jp/zw/s/e-nexco_28/contents/交通費宿泊費支給についてのご案内v3.pdf
+              - text: ■ 交通費宿泊費についてのご案内
+          - listitem [ref=f66e43]:
+            - link "■ 登録情報修正" [ref=f66e44] [cursor=pointer]:
+              - /url: ment
+          - listitem [ref=f66e45]:
+            - link "■ お問い合わせ" [ref=f66e46] [cursor=pointer]:
+              - /url: toiawase
+  - main [ref=f66e47]:
+    - heading "レターボックス" [level=1] [ref=f66e48]
+    - generic [ref=f66e49]:
+      - paragraph [ref=f66e50]: 17 通の新着メッセージがあります。
+      - generic [ref=f66e51]:
+        - heading "受信トレイ" [level=2] [ref=f66e53]
+        - list [ref=f66e54]:
+          - listitem [ref=f66e55]:
+            - img "未読" [ref=f66e57]: mail
+            - generic [ref=f66e58]:
+              - link "【NEXCO東日本】交通費申請について" [ref=f66e60] [cursor=pointer]:
+                - /url: letter/detail?seq=69276
+              - time [ref=f66e62]: 2026/08/03(月)
+          - listitem [ref=f66e63]:
+            - img "未読" [ref=f66e65]: mail
+            - generic [ref=f66e66]:
+              - link "【NEXCO東日本】オープンカンパニー(入門編/技術業務編)のご案内" [ref=f66e68] [cursor=pointer]:
+                - /url: letter/detail?seq=61214
+              - time [ref=f66e70]: 2026/07/17(金)
+          - listitem [ref=f66e71]:
+            - img "未読" [ref=f66e73]: mail
+            - generic [ref=f66e74]:
+              - generic [ref=f66e75]:
+                - generic "重要高︎" [ref=f66e77]: 高︎
+                - link "【NEXCO東日本】夏期仕事体験応募受付中！（7/16〆）高速道路会社の仕事を体験してみませんか？" [ref=f66e78] [cursor=pointer]:
+                  - /url: letter/detail?seq=45140
+              - time [ref=f66e80]: 2026/07/14(火)
+          - listitem [ref=f66e81]:
+            - img "未読" [ref=f66e83]: mail
+            - generic [ref=f66e84]:
+              - generic [ref=f66e85]:
+                - generic "重要中︎" [ref=f66e87]: 中
+                - link "【NEXCO東日本】～リマインド～（新企画）採用担当のまったりフリートーク（7/13）" [ref=f66e88] [cursor=pointer]:
+                  - /url: letter/detail?seq=40805
+              - time [ref=f66e90]: 2026/07/10(金)
+          - listitem [ref=f66e91]:
+            - img "未読" [ref=f66e93]: mail
+            - generic [ref=f66e94]:
+              - generic [ref=f66e95]:
+                - generic "重要高︎" [ref=f66e97]: 高︎
+                - link "【NEXCO東日本】※締切一週間前※ 夏期仕事体験応募受付中！（7/16〆）高速道路会社の仕事を体験してみませんか？" [ref=f66e98] [cursor=pointer]:
+                  - /url: letter/detail?seq=35975
+              - time [ref=f66e100]: 2026/07/09(木)
+          - listitem [ref=f66e101]:
+            - img "未読" [ref=f66e103]: mail
+            - generic [ref=f66e104]:
+              - generic [ref=f66e105]:
+                - generic "重要中︎" [ref=f66e107]: 中
+                - link "【NEXCO東日本】（新企画）採用担当のまったりフリートーク" [ref=f66e108] [cursor=pointer]:
+                  - /url: letter/detail?seq=25492
+              - time [ref=f66e110]: 2026/07/06(月)
+          - listitem [ref=f66e111]:
+            - img "未読" [ref=f66e113]: mail
+            - generic [ref=f66e114]:
+              - generic [ref=f66e115]:
+                - generic "重要高︎" [ref=f66e117]: 高︎
+                - link "【NEXCO東日本】夏期仕事体験応募受付中！（7/16〆）高速道路会社の仕事を体験してみませんか？" [ref=f66e118] [cursor=pointer]:
+                  - /url: letter/detail?seq=21010
+              - time [ref=f66e120]: 2026/06/29(月)
+          - listitem [ref=f66e121]:
+            - img "未読" [ref=f66e123]: mail
+            - generic [ref=f66e124]:
+              - generic [ref=f66e125]:
+                - generic "重要中︎" [ref=f66e127]: 中
+                - link "【NEXCO東日本】7月オープンカンパニー(入門編)のご案内" [ref=f66e128] [cursor=pointer]:
+                  - /url: letter/detail?seq=16653
+              - time [ref=f66e130]: 2026/06/19(金)
+          - listitem [ref=f66e131]:
+            - img "未読" [ref=f66e133]: mail
+            - generic [ref=f66e134]:
+              - link "【NEXCO東日本】事務所インターンシップ 開催のご案内" [ref=f66e136] [cursor=pointer]:
+                - /url: letter/detail?seq=12238
+              - time [ref=f66e138]: 2026/06/08(月)
+          - listitem [ref=f66e139]:
+            - img "未読" [ref=f66e141]: mail
+            - generic [ref=f66e142]:
+              - generic [ref=f66e143]:
+                - generic "重要高︎" [ref=f66e145]: 高︎
+                - link "【NEXCO東日本】応募開始！夏期仕事体験のご案内（7/16〆）高速道路会社の仕事を体験してみませんか？" [ref=f66e146] [cursor=pointer]:
+                  - /url: letter/detail?seq=10401
+              - time [ref=f66e148]: 2026/06/05(金)
+          - listitem [ref=f66e149]:
+            - img "未読" [ref=f66e151]: mail
+            - generic [ref=f66e152]:
+              - link "【NEXCO東日本】事務所インターンシップ_湯沢管理事務所 実習日程確定のお知らせ" [ref=f66e154] [cursor=pointer]:
+                - /url: letter/detail?seq=8696
+              - time [ref=f66e156]: 2026/06/02(火)
+          - listitem [ref=f66e157]:
+            - img "未読" [ref=f66e159]: mail
+            - generic [ref=f66e160]:
+              - link "【NEXCO東日本】事務所インターンシップ 開催のご案内" [ref=f66e162] [cursor=pointer]:
+                - /url: letter/detail?seq=8136
+              - time [ref=f66e164]: 2026/05/29(金)
+          - listitem [ref=f66e165]:
+            - img "未読" [ref=f66e167]: mail
+            - generic [ref=f66e168]:
+              - link "【NEXCO東日本】動画公開のお知らせ" [ref=f66e170] [cursor=pointer]:
+                - /url: letter/detail?seq=6221
+              - time [ref=f66e172]: 2026/05/29(金)
+          - listitem [ref=f66e173]:
+            - img "未読" [ref=f66e175]: mail
+            - generic [ref=f66e176]:
+              - generic [ref=f66e177]:
+                - generic "重要中︎" [ref=f66e179]: 中
+                - link "【NEXCO東日本】オープンカンパニー(入門編)のご案内" [ref=f66e180] [cursor=pointer]:
+                  - /url: letter/detail?seq=4357
+              - time [ref=f66e182]: 2026/05/28(木)
+          - listitem [ref=f66e183]:
+            - img "未読" [ref=f66e185]: mail
+            - generic [ref=f66e186]:
+              - link "【NEXCO東日本】技術系希望者限定!!現場見学会 開催のご案内*再送*" [ref=f66e188] [cursor=pointer]:
+                - /url: letter/detail?seq=2584
+              - time [ref=f66e190]: 2026/05/15(金)
+          - listitem [ref=f66e191]:
+            - img "未読" [ref=f66e193]: mail
+            - generic [ref=f66e194]:
+              - link "【NEXCO東日本】技術系希望者限定!!現場見学会 開催のご案内" [ref=f66e196] [cursor=pointer]:
+                - /url: letter/detail?seq=2054
+              - time [ref=f66e198]: 2026/05/11(月)
+          - listitem [ref=f66e199]:
+            - img "未読" [ref=f66e201]: mail
+            - generic [ref=f66e202]:
+              - link "エントリーありがとうございます" [ref=f66e204] [cursor=pointer]:
+                - /url: letter/detail?seq=1164
+              - time [ref=f66e206]: 2026/04/27(月)

@@ -1,0 +1,109 @@
+- generic [ref=f26e4]:
+  - banner [ref=f26e5]:
+    - link [ref=f26e7] [cursor=pointer]:
+      - /url: https://axol.jp/zw/s/kddi_28/mypage/top
+      - img "KDDI株式会社のロゴ" [ref=f26e8]
+    - generic [ref=f26e9]:
+      - button "メインコンテンツへ" [ref=f26e10] [cursor=pointer]
+      - navigation [ref=f26e11]:
+        - generic [ref=f26e12]:
+          - generic [ref=f26e13]:
+            - generic [ref=f26e14]: account_circle
+            - generic [ref=f26e15]: 石川 泰地さん
+          - generic [ref=f26e16]:
+            - generic [ref=f26e17]: ログイン回数
+            - generic [ref=f26e18]: 9 回
+          - generic [ref=f26e19]:
+            - generic [ref=f26e20]: 前回ログイン日時
+            - generic [ref=f26e21]: 2026/08/21(金) 00:04:17
+          - button "ログアウト" [ref=f26e23] [cursor=pointer]:
+            - generic [ref=f26e24]: logout
+            - text: ログアウト
+        - list [ref=f26e25]:
+          - listitem [ref=f26e26]:
+            - link "トップ" [ref=f26e27]:
+              - /url: top
+          - listitem [ref=f26e28]:
+            - link "レターボックス 7" [ref=f26e29] [cursor=pointer]:
+              - /url: letter
+              - text: レターボックス
+              - generic [ref=f26e30]: "7"
+          - listitem [ref=f26e31]:
+            - link [ref=f26e32] [cursor=pointer]:
+              - /url: koza/13
+              - strong [ref=f26e33]: 職種説明会情報はこちら！ 【アーカイブ動画公開中】
+          - listitem [ref=f26e34]:
+            - link [ref=f26e35] [cursor=pointer]:
+              - /url: koza/3
+              - strong [ref=f26e36]: KDDIの関連記事はコチラ！
+          - listitem [ref=f26e37]:
+            - link "登録情報修正" [ref=f26e38] [cursor=pointer]:
+              - /url: ment
+          - listitem [ref=f26e39]:
+            - link "お問い合わせ" [ref=f26e40] [cursor=pointer]:
+              - /url: toiawase
+  - main [ref=f26e41]:
+    - heading "トップ" [level=1] [ref=f26e42]
+    - generic [ref=f26e43]:
+      - group "コンテンツカルーセル" [ref=f26e44]:
+        - generic [ref=f26e45]:
+          - generic [ref=f26e46]:
+            - group "5 / 8" [ref=f26e47]:
+              - img "職種説明会情報はこちら！ 【アーカイブ動画公開中】" [ref=f26e48] [cursor=pointer]
+            - group "6 / 8" [ref=f26e49]:
+              - img "KDDIの関連記事はコチラ！" [ref=f26e50] [cursor=pointer]
+            - group "7 / 8" [ref=f26e51]:
+              - img "職種説明会情報はこちら！ 【アーカイブ動画公開中】" [ref=f26e52] [cursor=pointer]
+            - group "8 / 8" [ref=f26e53]:
+              - img "KDDIの関連記事はコチラ！" [ref=f26e54] [cursor=pointer]
+            - group "1 / 8" [ref=f26e55]:
+              - img "職種説明会情報はこちら！ 【アーカイブ動画公開中】" [ref=f26e56] [cursor=pointer]
+            - group "2 / 8" [ref=f26e57]:
+              - img "KDDIの関連記事はコチラ！" [ref=f26e58] [cursor=pointer]
+            - group "3 / 8" [ref=f26e59]:
+              - img "職種説明会情報はこちら！ 【アーカイブ動画公開中】" [ref=f26e60] [cursor=pointer]
+            - group "4 / 8" [ref=f26e61]:
+              - img "KDDIの関連記事はコチラ！" [ref=f26e62] [cursor=pointer]
+            - group "5 / 8" [ref=f26e63]:
+              - img "職種説明会情報はこちら！ 【アーカイブ動画公開中】" [ref=f26e64] [cursor=pointer]
+            - group "6 / 8" [ref=f26e65]:
+              - img "KDDIの関連記事はコチラ！" [ref=f26e66] [cursor=pointer]
+            - group "7 / 8" [ref=f26e67]:
+              - img "職種説明会情報はこちら！ 【アーカイブ動画公開中】" [ref=f26e68] [cursor=pointer]
+            - group "8 / 8" [ref=f26e69]:
+              - img "KDDIの関連記事はコチラ！" [ref=f26e70] [cursor=pointer]
+            - group "1 / 8" [ref=f26e71]:
+              - img "職種説明会情報はこちら！ 【アーカイブ動画公開中】" [ref=f26e72] [cursor=pointer]
+            - group "2 / 8" [ref=f26e73]:
+              - img "KDDIの関連記事はコチラ！" [ref=f26e74] [cursor=pointer]
+            - group "3 / 8" [ref=f26e75]:
+              - img "職種説明会情報はこちら！ 【アーカイブ動画公開中】" [ref=f26e76] [cursor=pointer]
+            - group "4 / 8" [ref=f26e77]:
+              - img "KDDIの関連記事はコチラ！" [ref=f26e78] [cursor=pointer]
+          - tablist "カルーセルページ" [ref=f26e79]:
+            - button "1枚目のスライドへ" [ref=f26e80] [cursor=pointer]
+            - button "2枚目のスライドへ" [ref=f26e81] [cursor=pointer]
+            - button "3枚目のスライドへ" [ref=f26e82] [cursor=pointer]
+            - button "4枚目のスライドへ" [ref=f26e83] [cursor=pointer]
+            - button "5枚目のスライドへ" [ref=f26e84] [cursor=pointer]
+            - button "6枚目のスライドへ" [ref=f26e85] [cursor=pointer]
+            - button "7枚目のスライドへ" [ref=f26e86] [cursor=pointer]
+            - button "8枚目のスライドへ" [ref=f26e87] [cursor=pointer]
+          - button "前のスライドへ" [ref=f26e88] [cursor=pointer]: prev
+          - button "次のスライドへ" [ref=f26e89] [cursor=pointer]: next
+          - button "カルーセル再生" [ref=f26e90] [cursor=pointer]: 再生
+          - button "カルーセル停止" [ref=f26e91] [cursor=pointer]: 停止
+      - generic [ref=f26e92]:
+        - heading "石川 泰地さんへのメッセージ" [level=2] [ref=f26e93]
+        - generic [ref=f26e94]:
+          - text: 石川 泰地様 KDDIへプレエントリーいただき、ありがとうございます！ インターンシップや各種イベントの実施が決定次第、ご案内いたします。 これまでのインターンシップ情報や採用情報は、採用ホームページにてご確認ください。 ・インターンシップサイトはコチラ：
+          - link:
+            - /url: https://career.kddi.com/internship/
+          - link "https://career.kddi.com/internship/" [ref=f26e95] [cursor=pointer]:
+            - /url: https://career.kddi.com/internship/
+          - text: ・採用ホームページはコチラ：
+          - link:
+            - /url: https://career.kddi.com/
+          - link "https://career.kddi.com/" [ref=f26e96] [cursor=pointer]:
+            - /url: https://career.kddi.com/
+          - text: 住所やメールアドレスなど個人情報に変更があった場合には、 「登録情報修正」ボタンより、修正をお願い致します。 みなさまとお会いできる日をスタッフ一同楽しみにしております。 ━━…・…━━…・…━━ KDDI株式会社 人財開発部 インターンシップ担当 ━━…・…━━…・…━━

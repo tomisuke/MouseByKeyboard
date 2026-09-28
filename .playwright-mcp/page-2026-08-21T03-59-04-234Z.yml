@@ -1,0 +1,59 @@
+- generic [active] [ref=f11e1]:
+  - generic [ref=f11e2]:
+    - img "日本銀行" [ref=f11e4]
+    - heading [level=1] [ref=f11e6]:
+      - img "日本銀行" [ref=f11e7]
+    - generic [ref=f11e8]:
+      - generic [ref=f11e9]:
+        - generic [ref=f11e10]:
+          - heading "ログイン" [level=2] [ref=f11e11]
+          - generic [ref=f11e13]:
+            - generic [ref=f11e14]:
+              - generic [ref=f11e15]:
+                - generic [ref=f11e16]:
+                  - term [ref=f11e17]: ID
+                  - definition [ref=f11e18]:
+                    - textbox [ref=f11e19]
+                - generic [ref=f11e20]:
+                  - term [ref=f11e21]: PASSWORD
+                  - definition [ref=f11e22]:
+                    - textbox [ref=f11e23]
+                - paragraph [ref=f11e24]:
+                  - button "ログイン" [ref=f11e25] [cursor=pointer]
+              - generic [ref=f11e26]:
+                - term [ref=f11e27]:
+                  - checkbox "ログイン情報(ＩＤ)を保存する" [ref=f11e28]
+                - definition [ref=f11e29]: ログイン情報(ＩＤ)を保存する
+            - paragraph [ref=f11e30]: ご自分以外の第三者が使用する可能性のあるパソコン（学校・会社・インターネットカフェ・図書館等）をご利用の場合は、チェックを外してログインされることをお奨めします。
+            - paragraph [ref=f11e32]:
+              - link "ID・PASSWORDを忘れた方はこちら" [ref=f11e33] [cursor=pointer]:
+                - /url: javascript:$('#formRefer').submit();
+        - generic [ref=f11e34]:
+          - heading "初めての方はこちら" [level=2] [ref=f11e35]
+          - generic [ref=f11e37]:
+            - paragraph [ref=f11e38]: 新規登録ボタンより個人情報登録をお願いします。
+            - paragraph [ref=f11e39]:
+              - button "新規登録" [ref=f11e40] [cursor=pointer]
+      - generic [ref=f11e42]:
+        - heading "What's New" [level=2] [ref=f11e43]
+        - generic [ref=f11e45]:
+          - term [ref=f11e46]: 2026年05月21日
+          - definition [ref=f11e47]:
+            - generic [ref=f11e48]: 28卒インターンシップマイページです。 インターンシップ等のイベントの具体的な内容や申込方法等の詳細は、マイページにて順次お知らせします。
+    - generic [ref=f11e49]:
+      - heading "SSL（暗号化）で接続します" [level=3] [ref=f11e50]
+      - paragraph [ref=f11e51]: ここから先は、インターネット上にあなたの個人情報が送信されるため、セキュリティ保護の観点からSSL128bit（暗号化）接続となります。 マイページをご利用になるにあたり、「cookieを有効にする」・「SSLを有効にする」設定が必要です。 ブラウザーの設定が分からない方はお使いのブラウザーのヘルプをご覧ください。
+    - paragraph [ref=f11e52]:
+      - generic [ref=f11e53] [cursor=pointer]: このページのトップへ
+  - generic [ref=f11e55]:
+    - list [ref=f11e56]:
+      - listitem [ref=f11e57]:
+        - link "企業ホームページへ" [ref=f11e58] [cursor=pointer]:
+          - /url: https://www.boj.or.jp/about/recruit/fresh/index.htm
+      - listitem [ref=f11e59]:
+        - link "お問い合わせ" [ref=f11e60] [cursor=pointer]:
+          - /url: mailto:post.hrmd2@boj.or.jp
+      - listitem [ref=f11e61]:
+        - link "会員規約" [ref=f11e62] [cursor=pointer]:
+          - /url: javascript:void(0);
+    - paragraph [ref=f11e63]: Copyright Bank of Japan All Rights Reserved.

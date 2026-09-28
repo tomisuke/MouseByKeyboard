@@ -1,0 +1,21 @@
+- generic [active] [ref=f10e1]:
+  - generic [ref=f10e2]:
+    - img "日本銀行" [ref=f10e4]
+    - generic [ref=f10e5]:
+      - paragraph [ref=f10e6]: タイムアウトしました。
+      - link "戻る" [ref=f10e7] [cursor=pointer]:
+        - /url: javascript:document.form1.submit();
+    - paragraph [ref=f10e8]:
+      - generic [ref=f10e9] [cursor=pointer]: このページのトップへ
+  - generic [ref=f10e11]:
+    - list [ref=f10e12]:
+      - listitem [ref=f10e13]:
+        - link "企業ホームページへ" [ref=f10e14] [cursor=pointer]:
+          - /url: https://www.boj.or.jp/about/recruit/fresh/index.htm
+      - listitem [ref=f10e15]:
+        - link "お問い合わせ" [ref=f10e16] [cursor=pointer]:
+          - /url: mailto:post.hrmd2@boj.or.jp
+      - listitem [ref=f10e17]:
+        - link "会員規約" [ref=f10e18] [cursor=pointer]:
+          - /url: javascript:void(0);
+    - paragraph [ref=f10e19]: Copyright Bank of Japan All Rights Reserved.

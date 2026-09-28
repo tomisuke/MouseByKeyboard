@@ -1,0 +1,21 @@
+- generic [active] [ref=f20e1]:
+  - generic [ref=f20e2]:
+    - img "株式会社日本取引所グループ" [ref=f20e4]
+    - generic [ref=f20e5]:
+      - paragraph [ref=f20e6]: タイムアウトしました。
+      - link "戻る" [ref=f20e7] [cursor=pointer]:
+        - /url: javascript:document.form1.submit();
+    - paragraph [ref=f20e8]:
+      - generic [ref=f20e9] [cursor=pointer]: このページのトップへ
+  - generic [ref=f20e11]:
+    - list [ref=f20e12]:
+      - listitem [ref=f20e13]:
+        - link "企業ホームページへ" [ref=f20e14] [cursor=pointer]:
+          - /url: http://www.jpx-recruit.jp/
+      - listitem [ref=f20e15]:
+        - link "お問い合わせ" [ref=f20e16] [cursor=pointer]:
+          - /url: javascript:void(0);
+      - listitem [ref=f20e17]:
+        - link "会員規約" [ref=f20e18] [cursor=pointer]:
+          - /url: javascript:void(0);
+    - paragraph [ref=f20e19]: Copyright (c) Japan Exchange Group, Inc.All rights reserved.

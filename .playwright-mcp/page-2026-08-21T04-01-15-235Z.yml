@@ -1,0 +1,27 @@
+- generic [ref=f29e3]:
+  - heading [level=1] [ref=f29e5]
+  - heading "株式会社NTTデータグループ マイページログイン" [level=2] [ref=f29e6]
+  - generic [ref=f29e7]:
+    - table [ref=f29e8]:
+      - rowgroup [ref=f29e9]:
+        - row [ref=f29e10]:
+          - rowheader "ユーザーID" [ref=f29e11]
+          - cell "：" [ref=f29e12]:
+            - text: ：
+            - textbox [ref=f29e13]
+        - row [ref=f29e14]:
+          - rowheader "パスワード" [ref=f29e15]
+          - cell "：" [ref=f29e16]:
+            - text: ：
+            - textbox [ref=f29e17]
+    - paragraph:
+      - link "ログイン" [ref=f29e18] [cursor=pointer]:
+        - /url: javascript:void(0);
+    - paragraph [ref=f29e19]:
+      - link "ユーザーIDを忘れた方" [ref=f29e20] [cursor=pointer]:
+        - /url: reminder/id.aspx
+      - link "パスワードを忘れた方" [ref=f29e21] [cursor=pointer]:
+        - /url: reminder/pass.aspx
+  - paragraph [ref=f29e22]:
+    - link "マイページのご利用にあたって" [ref=f29e23] [cursor=pointer]:
+      - /url: javascript:void(0);

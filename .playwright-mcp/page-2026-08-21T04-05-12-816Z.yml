@@ -1,0 +1,76 @@
+- generic [ref=f68e3]:
+  - banner [ref=f68e4]:
+    - link [ref=f68e6] [cursor=pointer]:
+      - /url: https://axol.jp/zw/s/e-nexco_28/mypage/top
+      - img "東日本高速道路株式会社のロゴ" [ref=f68e7]
+    - text: ■ ■ ■ ■
+    - generic [ref=f68e8]:
+      - button "メインコンテンツへ" [ref=f68e9] [cursor=pointer]
+      - navigation [ref=f68e10]:
+        - generic [ref=f68e11]:
+          - generic [ref=f68e12]:
+            - generic [ref=f68e13]: account_circle
+            - generic [ref=f68e14]: 石川 泰地さん
+          - generic [ref=f68e15]:
+            - generic [ref=f68e16]: ログイン回数
+            - generic [ref=f68e17]: 8 回
+          - generic [ref=f68e18]:
+            - generic [ref=f68e19]: 前回ログイン日時
+            - generic [ref=f68e20]: 2026/08/21(金) 00:02:02
+          - button "ログアウト" [ref=f68e22] [cursor=pointer]:
+            - generic [ref=f68e23]: logout
+            - text: ログアウト
+        - list [ref=f68e24]:
+          - listitem [ref=f68e25]:
+            - link "トップ" [ref=f68e26] [cursor=pointer]:
+              - /url: top
+          - listitem [ref=f68e27]:
+            - link "交通費申請" [ref=f68e28] [cursor=pointer]:
+              - /url: shl/1
+          - listitem [ref=f68e29]:
+            - link "☆東日本高速道路（NEXCO東日本）｜ワンキャリ企業説明会-☆(外部へ)" [ref=f68e30] [cursor=pointer]:
+              - /url: https://youtu.be/zprKps5ObkM
+              - strong [ref=f68e31]: ☆東日本高速道路（NEXCO東日本）｜ワンキャリ企業説明会-☆
+              - generic [ref=f68e32]: open_in_new
+          - listitem [ref=f68e33]:
+            - link "レターボックス 15" [ref=f68e34]:
+              - /url: letter
+              - text: レターボックス
+              - generic [ref=f68e35]: "15"
+          - listitem [ref=f68e36]:
+            - link "よくあるご質問" [ref=f68e37] [cursor=pointer]:
+              - /url: qa/5
+        - list [ref=f68e38]:
+          - listitem [ref=f68e39]:
+            - link "■ 交通費申請マニュアル" [ref=f68e40] [cursor=pointer]:
+              - /url: koza/27
+          - listitem [ref=f68e41]:
+            - link "交通費宿泊費についてのご案内(外部へ)" [ref=f68e42] [cursor=pointer]:
+              - /url: https://upload.axol.jp/zw/s/e-nexco_28/contents/交通費宿泊費支給についてのご案内v3.pdf
+              - text: ■ 交通費宿泊費についてのご案内
+          - listitem [ref=f68e43]:
+            - link "■ 登録情報修正" [ref=f68e44] [cursor=pointer]:
+              - /url: ment
+          - listitem [ref=f68e45]:
+            - link "■ お問い合わせ" [ref=f68e46] [cursor=pointer]:
+              - /url: toiawase
+  - main [ref=f68e47]:
+    - heading "レターボックス" [level=1] [ref=f68e48]
+    - generic [ref=f68e49]:
+      - link "一覧に戻る" [ref=f68e51] [cursor=pointer]:
+        - /url: letter
+      - generic [ref=f68e52]:
+        - generic [ref=f68e53]:
+          - heading "【NEXCO東日本】交通費申請について" [level=2] [ref=f68e54]
+          - time [ref=f68e55]: 2026/08/03(月)
+        - generic [ref=f68e58]:
+          - text: こんにちは。 NEXCO東日本 採用係です。 本日は、マイページにご登録いただいている皆さまへご案内です。 弊社各種対面イベントへご参加いただくにあたり、交通費・宿泊費を支給しておりますが、そのための「交通費申請システム」について、昨年度実施された各交通機関の運賃改定に対応するためのシステムメンテナンス作業が完了しておらず、現在申請受付を停止しております。 また、イベント参加者の皆さまへお願いしております個人情報登録および口座登録につきましても、システム停止に伴い受付を停止しております。 ご不便をおかけしておりますこと、深くお詫び申し上げます。 現在、システム会社へ作業完了時期の確認および早期対応を依頼しております。受付開始の目途が立ち次第、改めてご案内いたしますので、今しばらくお待ちくださいますようお願いいたします。 皆さまにはご迷惑をおかけいたしますが、できる限り早くご案内できるよう努めてまいります。 ご理解のほどよろしくお願いいたします。 ※本メールは送信専用フォームです。返信等必要な場合は【お問い合わせ】よりご連絡ください。 ▼▽▼▽▼▽▼▽▼▽▼ ☆東日本高速道路（NEXCO東日本）｜ワンキャリ企業説明会-☆ 当社の人事担当２名が、会社概要や魅力などについて、 対談パートを交えながらたっぷりとお伝えしております。 YouTubeで公開されておりますので、是非ご覧ください！ YouTubeのURLはこちら！↓
+          - link "https://youtu.be/zprKps5ObkM" [ref=f68e59] [cursor=pointer]:
+            - /url: https://youtu.be/zprKps5ObkM
+          - text: ※イベント等参加前には必ずご覧ください！※ ▲△▲△▲△▲△▲△▲ ●MyPage：
+          - link "https://axol.jp/zw/s/e-nexco_28/mypage/login" [ref=f68e60] [cursor=pointer]:
+            - /url: https://axol.jp/zw/s/e-nexco_28/mypage/login
+          - text: ●個人ID：u2t1048667 ●パスワード：(ご自身で設定されたパスワード) ■□■□■□■□■□■□■□■□■□ NEXCO東日本（東日本高速道路株式会社） 総務・経理本部 人事部 人事課 採用係 TEL：03-3506-0317（採用係直通） FAX：03-3506-0386 Email:saiyou@e-nexco.co.jp HP：
+          - link "https://www.e-nexco.co.jp/recruit/e-nexco/" [ref=f68e61] [cursor=pointer]:
+            - /url: https://www.e-nexco.co.jp/recruit/e-nexco/
+          - text: ■□■□■□■□■□■□■□■□■□

@@ -1,0 +1,62 @@
+- generic [ref=f17e3]:
+  - banner [ref=f17e4]:
+    - link [ref=f17e6] [cursor=pointer]:
+      - /url: https://axol.jp/zw/s/inpex_28/mypage/top
+      - img "株式会社ＩＮＰＥＸのロゴ" [ref=f17e7]
+    - generic [ref=f17e8]:
+      - button "メインコンテンツへ" [ref=f17e9] [cursor=pointer]
+      - navigation [ref=f17e10]:
+        - generic [ref=f17e11]:
+          - generic [ref=f17e12]:
+            - generic [ref=f17e13]: account_circle
+            - generic [ref=f17e14]: 石川 泰地さん
+          - generic [ref=f17e15]:
+            - generic [ref=f17e16]: ログイン回数
+            - generic [ref=f17e17]: 7 回
+          - generic [ref=f17e18]:
+            - generic [ref=f17e19]: 前回ログイン日時
+            - generic [ref=f17e20]: 2026/06/15(月) 20:09:49
+          - button "ログアウト" [ref=f17e22] [cursor=pointer]:
+            - generic [ref=f17e23]: logout
+            - text: ログアウト
+        - list [ref=f17e24]:
+          - listitem [ref=f17e25]:
+            - link "トップ" [ref=f17e26] [cursor=pointer]:
+              - /url: top
+          - listitem [ref=f17e27]:
+            - link "レターボックス 17" [ref=f17e28] [cursor=pointer]:
+              - /url: letter
+              - text: レターボックス
+              - generic [ref=f17e29]: "17"
+          - listitem [ref=f17e30]:
+            - link "予約・確認フォーム" [ref=f17e31] [cursor=pointer]:
+              - /url: form
+          - listitem [ref=f17e32]:
+            - link "動画集" [ref=f17e33] [cursor=pointer]:
+              - /url: blog/15
+          - listitem [ref=f17e34]:
+            - link "INPEX若手社員が語る！技術系職種別インタビュー動画(外部へ)" [ref=f17e35] [cursor=pointer]:
+              - /url: https://upload.axol.jp/bx/s/inpex_27/contents/INPEX若手社員が語る！技術系職種別インタビュー動画.pdf
+              - text: INPEX若手社員が語る！技術系職種別インタビュー動画
+              - generic [ref=f17e36]: open_in_new
+          - listitem [ref=f17e37]:
+            - link "採用HP(外部へ)" [ref=f17e38] [cursor=pointer]:
+              - /url: https://www.inpex-recruit.com/
+              - text: 採用HP
+              - generic [ref=f17e39]: open_in_new
+          - listitem [ref=f17e40]:
+            - link "コーポレートHP(外部へ)" [ref=f17e41] [cursor=pointer]:
+              - /url: https://www.inpex.com/
+              - text: コーポレートHP
+              - generic [ref=f17e42]: open_in_new
+          - listitem [ref=f17e43]:
+            - link "登録情報修正" [ref=f17e44] [cursor=pointer]:
+              - /url: ment
+  - main [ref=f17e45]:
+    - heading "予約・確認フォーム" [level=1] [ref=f17e46]
+    - generic [ref=f17e47]:
+      - generic [ref=f17e48]: この画面では、予約や予約内容の確認ができます。
+      - list [ref=f17e50]:
+        - listitem [ref=f17e51]:
+          - heading "▶︎ 【対面参加用】7/22(水)エネルギー業界セミナー" [level=2] [ref=f17e52]
+          - paragraph [ref=f17e54]: 受付は終了しました。

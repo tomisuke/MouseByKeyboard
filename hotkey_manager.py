@@ -74,39 +74,72 @@ class HotkeyManager(threading.Thread):
     def wait_ready(self, timeout: float = 5.0) -> None:
         self._ready.wait(timeout)
 
+    @property
+    def registered_count(self) -> int:
+        return len(self._registered)
+
     def run(self) -> None:
-        for hk_str, etype in self._pending:
-            mods, vk = _parse_hotkey(hk_str)
-            if not vk:
-                print(f'[HotkeyManager] 解析失敗: {hk_str!r}')
-                continue
-            hid = self._next_id
-            self._next_id += 1
-            ok = _user32.RegisterHotKey(None, hid, mods | MOD_NOREPEAT, vk)
-            if ok:
-                self._registered[hid] = etype
-                print(f'[HotkeyManager] 登録: {hk_str!r} -> {etype} (id={hid})')
-            else:
-                err = ctypes.get_last_error()
-                print(f'[HotkeyManager] 登録失敗: {hk_str!r} err={err}')
+        try:
+            # 1. スレッドのメッセージキューを確実に作成する
+            msg = ctypes.wintypes.MSG()
+            _user32.PeekMessageW(ctypes.byref(msg), None, 0, 0, 0)  # PM_NOREMOVE = 0
 
-        self._ready.set()
+            for hk_str, etype in self._pending:
+                mods, vk = _parse_hotkey(hk_str)
+                if not vk:
+                    print(f'[HotkeyManager] 解析失敗: {hk_str!r}')
+                    continue
+                hid = self._next_id
+                self._next_id += 1
 
-        msg = ctypes.wintypes.MSG()
-        while self._running:
-            # PeekMessage はブロックしないので CPU 消費を抑えるため短い sleep
-            ret = _user32.PeekMessageW(ctypes.byref(msg), None, 0, 0, 1)  # PM_REMOVE
-            if ret:
-                if msg.message == WM_HOTKEY:
-                    etype = self._registered.get(msg.wParam)
-                    if etype:
-                        self._queue.put({'type': etype})
-            else:
-                time.sleep(0.01)
+                # MOD_NOREPEATありと、なし(フォールバック)の両方を試す
+                registered_ok = False
+                for try_norepeat in [True, False]:
+                    if registered_ok:
+                        break
+                    
+                    flags = mods
+                    if try_norepeat:
+                        flags |= MOD_NOREPEAT
 
-        for hid in list(self._registered):
-            _user32.UnregisterHotKey(None, hid)
-        print('[HotkeyManager] 停止')
+                    # 最大5回リトライする
+                    for attempt in range(5):
+                        ok = _user32.RegisterHotKey(None, hid, flags, vk)
+                        if ok:
+                            self._registered[hid] = etype
+                            print(f'[HotkeyManager] 登録成功: {hk_str!r} -> {etype} (id={hid}, norepeat={try_norepeat}, attempt={attempt+1})')
+                            registered_ok = True
+                            break
+                        else:
+                            err = ctypes.get_last_error()
+                            print(f'[HotkeyManager] 登録試行失敗: {hk_str!r} (norepeat={try_norepeat}, attempt={attempt+1}) err={err}')
+                            time.sleep(0.5)
+
+                if not registered_ok:
+                    print(f'[HotkeyManager] 最終登録失敗: {hk_str!r}')
+
+            self._ready.set()
+
+            while self._running:
+                # PeekMessage はブロックしないので CPU 消費を抑えるため短い sleep
+                ret = _user32.PeekMessageW(ctypes.byref(msg), None, 0, 0, 1)  # PM_REMOVE
+                if ret:
+                    if msg.message == WM_HOTKEY:
+                        etype = self._registered.get(msg.wParam)
+                        if etype:
+                            self._queue.put({'type': etype})
+                else:
+                    time.sleep(0.01)
+
+            for hid in list(self._registered):
+                _user32.UnregisterHotKey(None, hid)
+            print('[HotkeyManager] 停止')
+        except Exception as e:
+            import sys
+            import traceback
+            print(f"[HotkeyManager] 実行中にエラーが発生しました: {e}", file=sys.stderr)
+            traceback.print_exc(file=sys.stderr)
+            self._queue.put({'type': 'quit'})
 
     def stop(self) -> None:
         self._running = False

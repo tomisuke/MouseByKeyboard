@@ -1,0 +1,136 @@
+- generic [ref=f9e3]:
+  - banner [ref=f9e4]:
+    - text: ▶︎ ▶︎ ▶︎ ▶︎ ▶︎ ▶︎ ▶︎ ▶︎ ▶︎ ▶︎ ▶︎ ■ ■ ■ ■ ■ ■ ■ ■
+    - generic [ref=f9e5]:
+      - button "メインコンテンツへ" [ref=f9e6] [cursor=pointer]
+      - navigation [ref=f9e7]:
+        - generic [ref=f9e8]:
+          - generic [ref=f9e9]:
+            - generic [ref=f9e10]: account_circle
+            - generic [ref=f9e11]: 石川 泰地さん
+          - generic [ref=f9e12]:
+            - generic [ref=f9e13]: ログイン回数
+            - generic [ref=f9e14]: 30 回
+          - generic [ref=f9e15]:
+            - generic [ref=f9e16]: 前回ログイン日時
+            - generic [ref=f9e17]: 2026/08/21(金) 11:23:15
+          - button "ログアウト" [ref=f9e19] [cursor=pointer]:
+            - generic [ref=f9e20]: logout
+            - text: ログアウト
+        - list [ref=f9e21]:
+          - listitem [ref=f9e22]:
+            - link "▶︎ トップ" [ref=f9e23] [cursor=pointer]:
+              - /url: top
+          - listitem [ref=f9e24]:
+            - link "▶︎ レターボックス" [ref=f9e25] [cursor=pointer]:
+              - /url: letter
+          - listitem [ref=f9e26]:
+            - link [ref=f9e27] [cursor=pointer]:
+              - /url: com/3
+              - text: ▶︎
+              - strong [ref=f9e28]: エントリーシート提出（9月）
+          - listitem [ref=f9e29]:
+            - link [ref=f9e30]:
+              - /url: com/5
+              - text: ▶︎
+              - strong [ref=f9e31]: インターンシップ参加確認フォーム（9月対面）
+          - listitem [ref=f9e32]:
+            - link [ref=f9e33] [cursor=pointer]:
+              - /url: com/13
+              - text: ▶︎
+              - strong [ref=f9e34]: 緊急連絡先登録フォーム
+          - listitem [ref=f9e35]:
+            - link [ref=f9e36] [cursor=pointer]:
+              - /url: com/41
+              - text: ▶︎
+              - strong [ref=f9e37]: 事前説明会 出欠確認アンケート ※8/21 23:59締切
+          - listitem [ref=f9e38]:
+            - link [ref=f9e39] [cursor=pointer]:
+              - /url: shl/2
+              - text: ▶︎
+              - strong [ref=f9e40]: 交通費申請
+          - listitem [ref=f9e41]:
+            - link "▶︎ イベントスケジュール" [ref=f9e42] [cursor=pointer]:
+              - /url: schedule/4
+          - listitem [ref=f9e43]:
+            - link [ref=f9e44] [cursor=pointer]:
+              - /url: blog/16
+              - text: ▶︎
+              - strong [ref=f9e45]: 【理系】インターンシップ・ 就業体験 概要
+          - listitem [ref=f9e46]:
+            - link [ref=f9e47] [cursor=pointer]:
+              - /url: blog/1
+              - text: ▶︎
+              - strong [ref=f9e48]: インターンシップ・就業体験 コース紹介
+          - listitem [ref=f9e49]:
+            - link "▶︎ お問い合わせ" [ref=f9e50] [cursor=pointer]:
+              - /url: toiawase
+        - list [ref=f9e51]:
+          - listitem [ref=f9e52]:
+            - link "■ 募集要項" [ref=f9e53] [cursor=pointer]:
+              - /url: koza/14
+          - listitem [ref=f9e54]:
+            - link "■ 技術系部署紹介" [ref=f9e55] [cursor=pointer]:
+              - /url: koza/5
+          - listitem [ref=f9e56]:
+            - link "■ 事務系部署紹介" [ref=f9e57] [cursor=pointer]:
+              - /url: koza/3
+          - listitem [ref=f9e58]:
+            - link "■ 専任職（一般職）職種紹介" [ref=f9e59] [cursor=pointer]:
+              - /url: koza/9
+          - listitem [ref=f9e60]:
+            - link "■ 会社説明動画" [ref=f9e61] [cursor=pointer]:
+              - /url: blog/7
+          - listitem [ref=f9e62]:
+            - link "■ YouTubeおすすめ動画集" [ref=f9e63] [cursor=pointer]:
+              - /url: blog/2
+          - listitem [ref=f9e64]:
+            - link "■ 選考フロー" [ref=f9e65] [cursor=pointer]:
+              - /url: blog/11
+          - listitem [ref=f9e66]:
+            - link "■ オフィスツアー" [ref=f9e67] [cursor=pointer]:
+              - /url: photo/8
+        - list [ref=f9e68]:
+          - listitem [ref=f9e69]:
+            - link "YouTube(外部へ)" [ref=f9e70] [cursor=pointer]:
+              - /url: https://www.youtube.com/@chiyodacorporation7408
+              - text: YouTube
+          - listitem [ref=f9e71]:
+            - link "Instagram(外部へ)" [ref=f9e72] [cursor=pointer]:
+              - /url: https://www.instagram.com/chiyoda_corporation/
+              - text: Instagram
+          - listitem [ref=f9e73]:
+            - link "登録情報修正" [ref=f9e74] [cursor=pointer]:
+              - /url: ment
+  - main [ref=f9e75]:
+    - heading "▶︎ インターンシップ参加確認フォーム（9月対面）" [level=1] [ref=f9e76]
+    - generic [ref=f9e77]:
+      - generic [ref=f9e78]: 現在受付を行っておりません。 下記の内容で回答されています。
+      - generic [ref=f9e81]:
+        - generic [ref=f9e82]:
+          - generic [ref=f9e83]: 設問 1
+          - generic [ref=f9e86]:
+            - generic [ref=f9e87]: インターンシップ・就業体験への参加可否について選択してください。 ※本プログラムは全日出席を参加条件としており、部分参加はできません。 ※辞退された場合、早期ジョブマッチングへのご案内ができない可能性がございます。内容をご理解のうえ、チェックをお願いいたします。 ※情勢変化および当社都合により、直前の中止・変更の可能性がございますことを予めご了承ください。
+            - generic [ref=f9e88]: 上記内容を理解し、参加します
+        - generic [ref=f9e89]:
+          - generic [ref=f9e90]: 設問 3
+          - generic [ref=f9e93]:
+            - generic [ref=f9e94]: インターンシップ・就業体験のご参加にあたり、オンライン事前説明会を実施いたします。 ご予定をお確かめのうえ、参加可能な日程を下記選択肢よりご回答ください。詳細は、後日メールにてご案内いたします。
+            - generic [ref=f9e95]: 8/21(金) 12:00-13:00 ※個別調整枠
+        - generic [ref=f9e96]:
+          - generic [ref=f9e97]: 設問 5
+          - generic [ref=f9e100]:
+            - generic [ref=f9e101]: 遠方にお住まいの方には、当社にてインターンシップ期間中の宿泊ホテルを手配します。（チェックイン：8/30(日)／チェックアウト：9/4(金)朝） 宿泊を希望しますか。 ※現在の居住場所または首都圏のご実家の最寄り駅から、公共交通機関の利用時間（乗り換え時間含む）が片道90分以上かかる方に限ります。（最寄り駅までの移動時間は含みません） ※神奈川県近隣からお越しの方で宿泊希望者は、当社の基準で合理的な経路で確認させていただきます。
+            - generic [ref=f9e102]: いいえ（インターンシップ期間中は、首都圏の実家、知人宅などから通う）
+        - generic [ref=f9e103]:
+          - generic [ref=f9e104]: 設問 7
+          - generic [ref=f9e107]:
+            - generic [ref=f9e108]: 首都圏のご実家または親族・知人宅などから通う場合は、その所在都道府県をご記入ください。
+            - generic [ref=f9e109]: 東京都
+        - generic [ref=f9e110]:
+          - generic [ref=f9e111]: 設問 8
+          - generic [ref=f9e114]:
+            - generic [ref=f9e115]:
+              - generic [ref=f9e116]: 秘密保持誓約書／Secrecy Declaration
+              - text: １．当社プログラム参加に際し、参加前から参加中にかけて送付された資料で知り得た、千代田化工建設株式会社（以下「千代田」という）及び千代田の関係先の一切の情報（以下「秘密情報」という）を第三者に漏洩しません。また、生成AIへの入力を含めた如何なる目的にも使用・複製しません。 ２．「秘密情報」が公知公用となった場合であっても、当該「秘密情報」を受領した事実や、公知公用情報との相関性・類似性その他について全て口外いたしません。 ３．千代田のインターンシップ又は就業体験セミナー参加中の一切の画面の録画・録音、印刷するなどの行為ならびに第三者が閲覧可能な形でSNSにアップロードするなどの行為はいたしません。 ４． 千代田のインターンシップ又は就業体験セミナー参加に関連して開示されたマニュアル、図面、報告書、その他文書等、「秘密情報」を含む一切の記録物等は、本セミナープログラム終了後速やかに全て返却ないしは破棄いたします。また、今後も引き続き上記秘密保持義務を順守することを認めます。 ５．故意または重大な過失により、または上記各事項に違反が認められ、千代田へ損害を与えた場合には、損害に相当する賠償の責任を行います。 私は上記の秘密保持等の誓約事項の遵守を誓います。
+            - generic [ref=f9e118]: 同意します

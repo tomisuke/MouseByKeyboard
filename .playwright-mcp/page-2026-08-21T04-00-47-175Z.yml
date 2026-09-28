@@ -1,0 +1,115 @@
+- generic [ref=f27e4]:
+  - banner [ref=f27e5]:
+    - link [ref=f27e7] [cursor=pointer]:
+      - /url: https://axol.jp/zw/s/kddi_28/mypage/top
+      - img "KDDI株式会社のロゴ" [ref=f27e8]
+    - generic [ref=f27e9]:
+      - button "メインコンテンツへ" [ref=f27e10] [cursor=pointer]
+      - navigation [ref=f27e11]:
+        - generic [ref=f27e12]:
+          - generic [ref=f27e13]:
+            - generic [ref=f27e14]: account_circle
+            - generic [ref=f27e15]: 石川 泰地さん
+          - generic [ref=f27e16]:
+            - generic [ref=f27e17]: ログイン回数
+            - generic [ref=f27e18]: 9 回
+          - generic [ref=f27e19]:
+            - generic [ref=f27e20]: 前回ログイン日時
+            - generic [ref=f27e21]: 2026/08/21(金) 00:04:17
+          - button "ログアウト" [ref=f27e23] [cursor=pointer]:
+            - generic [ref=f27e24]: logout
+            - text: ログアウト
+        - list [ref=f27e25]:
+          - listitem [ref=f27e26]:
+            - link "トップ" [ref=f27e27] [cursor=pointer]:
+              - /url: top
+          - listitem [ref=f27e28]:
+            - link "レターボックス 7" [ref=f27e29]:
+              - /url: letter
+              - text: レターボックス
+              - generic [ref=f27e30]: "7"
+          - listitem [ref=f27e31]:
+            - link [ref=f27e32] [cursor=pointer]:
+              - /url: koza/13
+              - strong [ref=f27e33]: 職種説明会情報はこちら！ 【アーカイブ動画公開中】
+          - listitem [ref=f27e34]:
+            - link [ref=f27e35] [cursor=pointer]:
+              - /url: koza/3
+              - strong [ref=f27e36]: KDDIの関連記事はコチラ！
+          - listitem [ref=f27e37]:
+            - link "登録情報修正" [ref=f27e38] [cursor=pointer]:
+              - /url: ment
+          - listitem [ref=f27e39]:
+            - link "お問い合わせ" [ref=f27e40] [cursor=pointer]:
+              - /url: toiawase
+  - main [ref=f27e41]:
+    - heading "レターボックス" [level=1] [ref=f27e42]
+    - generic [ref=f27e43]:
+      - paragraph [ref=f27e44]: 7 通の新着メッセージがあります。
+      - generic [ref=f27e45]:
+        - heading "受信トレイ" [level=2] [ref=f27e47]
+        - list [ref=f27e48]:
+          - listitem [ref=f27e49]:
+            - img "既読" [ref=f27e51]: drafts
+            - generic [ref=f27e52]:
+              - generic [ref=f27e53]:
+                - generic "重要高︎" [ref=f27e55]: 高︎
+                - link "本日締切！2026年度開催の『業務系インターンシップ』募集受付中！" [ref=f27e56] [cursor=pointer]:
+                  - /url: letter/detail?seq=148786
+              - time [ref=f27e58]: 2026/07/05(日)
+          - listitem [ref=f27e59]:
+            - img "未読" [ref=f27e61]: mail
+            - generic [ref=f27e62]:
+              - generic [ref=f27e63]:
+                - generic "重要高︎" [ref=f27e65]: 高︎
+                - link "締切2日前！2026年度開催の『業務系インターンシップ』募集受付中！" [ref=f27e66] [cursor=pointer]:
+                  - /url: letter/detail?seq=133862
+              - time [ref=f27e68]: 2026/07/03(金)
+          - listitem [ref=f27e69]:
+            - img "未読" [ref=f27e71]: mail
+            - generic [ref=f27e72]:
+              - generic [ref=f27e73]:
+                - generic "重要高︎" [ref=f27e75]: 高︎
+                - link "「職種説明会」アーカイブ動画公開！（業務系コース）" [ref=f27e76] [cursor=pointer]:
+                  - /url: letter/detail?seq=97049
+              - time [ref=f27e78]: 2026/06/23(火)
+          - listitem [ref=f27e79]:
+            - img "未読" [ref=f27e81]: mail
+            - generic [ref=f27e82]:
+              - generic [ref=f27e83]:
+                - generic "重要高︎" [ref=f27e85]: 高︎
+                - link "職種説明会を開催します！＜業務系まもなく締切＞" [ref=f27e86] [cursor=pointer]:
+                  - /url: letter/detail?seq=78928
+              - time [ref=f27e88]: 2026/06/12(金)
+          - listitem [ref=f27e89]:
+            - img "未読" [ref=f27e91]: mail
+            - generic [ref=f27e92]:
+              - generic [ref=f27e93]:
+                - generic "重要高︎" [ref=f27e95]: 高︎
+                - link "本日締切！2026年度開催の『技術系/業務系インターンシップ』募集受付中！" [ref=f27e96] [cursor=pointer]:
+                  - /url: letter/detail?seq=64952
+              - time [ref=f27e98]: 2026/06/07(日)
+          - listitem [ref=f27e99]:
+            - img "未読" [ref=f27e101]: mail
+            - generic [ref=f27e102]:
+              - generic [ref=f27e103]:
+                - generic "重要高︎" [ref=f27e105]: 高︎
+                - link "締切2日前！2026年度開催の『技術系/業務系インターンシップ』募集受付中！" [ref=f27e106] [cursor=pointer]:
+                  - /url: letter/detail?seq=53511
+              - time [ref=f27e108]: 2026/06/05(金)
+          - listitem [ref=f27e109]:
+            - img "未読" [ref=f27e111]: mail
+            - generic [ref=f27e112]:
+              - generic [ref=f27e113]:
+                - generic "重要高︎" [ref=f27e115]: 高︎
+                - link "「職種説明会」アーカイブ動画公開！（技術系コース）" [ref=f27e116] [cursor=pointer]:
+                  - /url: letter/detail?seq=30978
+              - time [ref=f27e118]: 2026/05/29(金)
+          - listitem [ref=f27e119]:
+            - img "未読" [ref=f27e121]: mail
+            - generic [ref=f27e122]:
+              - generic [ref=f27e123]:
+                - generic "重要高︎" [ref=f27e125]: 高︎
+                - link "マイナビよりプレエントリーありがとうございます！" [ref=f27e126] [cursor=pointer]:
+                  - /url: letter/detail?seq=22457
+              - time [ref=f27e128]: 2026/05/24(日)

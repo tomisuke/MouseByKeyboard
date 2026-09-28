@@ -18,7 +18,13 @@ class Config:
     prefix_double: str = ';'
     prefix_right: str = "'"
     prefix_middle: str = ','
-    scan_timeout_ms: int = 2000
+    scan_timeout_ms: int = 500
+    max_scan_windows: int = 5
+    parallel_sub_scan: bool = False
+    force_physical_click: bool = False
+    show_indicators: bool = True
+    indicator_display: str = 'active_window'
+    indicator_position: str = 'top_center'
 
     def save(self) -> None:
         os.makedirs(CONFIG_DIR, exist_ok=True)
@@ -34,5 +40,6 @@ class Config:
                 data = json.load(f)
             valid = {fi.name for fi in fields(cls)}
             return cls(**{k: v for k, v in data.items() if k in valid})
-        except Exception:
+        except Exception as e:
+            print(f"[Config] 設定ファイルの読み込みに失敗しました: {e}. デフォルト設定を使用します。")
             return cls()

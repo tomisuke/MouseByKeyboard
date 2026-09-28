@@ -1,0 +1,55 @@
+- generic [ref=f31e2]:
+  - generic [ref=f31e3]:
+    - generic [ref=f31e4]:
+      - img "株式会社viviON" [ref=f31e5]
+      - heading "株式会社viviON 新卒採用" [level=1] [ref=f31e7]
+    - figure [ref=f31e8]
+  - main [ref=f31e9]:
+    - article [ref=f31e12]:
+      - generic [ref=f31e14]:
+        - heading "会社説明会" [level=2] [ref=f31e15]
+        - blockquote [ref=f31e16]:
+          - link "28新卒採用┃全ポジション共通説明会" [ref=f31e17] [cursor=pointer]:
+            - /url: https://public.n-ats.hrmos.co/vivion-fresh/events/2293961749155422208
+        - paragraph [ref=f31e18]: viviONは、ユーザーとクリエイターの皆さまと共に、約30年間にもわたって二次元文化を育みながらここまで成長を続けてきました。説明会では、世界的に拡大する二次元コンテンツ市場を踏まえ、私たちが目指す未来と、その実現に必要な28新卒全体の役割についてご説明いたします。人事への質疑応答の時間も設けていますので、ぜひお気軽にご参加ください。
+        - heading "28新卒採用 募集職種" [level=2] [ref=f31e19]
+        - blockquote [ref=f31e20]: ビジネス総合職 ※近日公開予定
+        - paragraph [ref=f31e21]: 二次元文化の未来をつくる、ビジネス総合職を募集。ジョブローテーションを通じて作品を「つくり、届け、拡げる」エンタメビジネスの全体視点を養い、グループ総売上1000億円を目指して、事業を牽引するリーダーを目指せるポジションです。
+        - blockquote [ref=f31e22]: UI/UXデザイナー ※近日公開予定
+        - paragraph [ref=f31e23]: エンタメ事業の体験価値を最大化する、UI/UXデザイナーを専任募集。自社で開発・運営するサービスのデザインを、見た目の美しさ以上に「課題解決の手段」と捉え、デザインの力でユーザーの課題を解決し、サービスの価値を最大化することを追求します。
+        - blockquote [ref=f31e24]: フロントエンドエンジニア（FE） ※近日公開予定
+        - paragraph [ref=f31e25]: 最高のユーザー体験を最前線の技術で実現する、FEを専任募集。ユーザーが利用するサービスの「表側」の機能を、デザイナーが設計したUIをもとに、モダン技術やAIを駆使しながら実装から改善提案までを担います。
+        - blockquote [ref=f31e26]: バックエンドエンジニア（BE） ※近日公開予定
+        - paragraph [ref=f31e27]: 安定したシステム基盤の構築を通し、最高のユーザー体験を根幹から実現するBEを専任募集。ユーザーの目には見えない「裏側」でサービス全体を支えるシステム基盤を構築し、事業成長に直結する機能開発やパフォーマンス改善を担います。
+        - paragraph [ref=f31e28]
+        - heading "通年採用・27新卒採用 募集職種" [level=2] [ref=f31e29]
+        - blockquote [ref=f31e30]:
+          - link "フロントエンドエンジニア（FE）" [ref=f31e31] [cursor=pointer]:
+            - /url: https://public.n-ats.hrmos.co/vivion-fresh/jobs/2287886163467108352
+        - paragraph [ref=f31e32]: 最高のユーザー体験を最前線の技術で実現する、FEを専任募集。ユーザーが利用するサービスの「表側」の機能を、デザイナーが設計したUIをもとに、モダン技術やAIを駆使しながら実装から改善提案までを担います。
+        - blockquote [ref=f31e33]:
+          - link "バックエンドエンジニア（BE）" [ref=f31e34] [cursor=pointer]:
+            - /url: https://public.n-ats.hrmos.co/vivion-fresh/jobs/2287886508138233856
+        - paragraph [ref=f31e35]: 安定したシステム基盤の構築を通し、最高のユーザー体験を根幹から実現するBEを専任募集。ユーザーの目には見えない「裏側」でサービス全体を支えるシステム基盤を構築し、事業成長に直結する機能開発やパフォーマンス改善を担います。
+        - blockquote [ref=f31e36]:
+          - link "音声コンテンツプロデューサー" [ref=f31e37] [cursor=pointer]:
+            - /url: https://public.n-ats.hrmos.co/vivion-fresh/jobs/2206723046235238400
+          - text: ※既卒・第二新卒の方も募集中
+        - paragraph [ref=f31e38]: 女性向け・R18コンテンツにおける、音声コンテンツプロデューサーを専任募集。一見ニッチでディープな領域ですが、昨今急激に成長し注目されている業界です。女性ユーザーの心に響くコンテンツ制作・展開を通じて、独自のキャリアを築けるポジションです。
+        - blockquote [ref=f31e39]:
+          - link "漫画編集者" [ref=f31e40] [cursor=pointer]:
+            - /url: https://public.n-ats.hrmos.co/vivion-fresh/jobs/2219737538352660480
+          - text: ※既卒・第二新卒の方も募集中
+        - paragraph [ref=f31e41]: 成人向け作品をメインで担当する、漫画編集者を専任募集。オリジナル作品の企画・制作業務全般し、作家や編集プロダクションとやりとりしながら、企画～プロット制作、編集業務全般から販売の施策企画まで、一気通貫して担当することができます。
+        - heading "風土と働き方" [level=2] [ref=f31e42]
+        - blockquote [ref=f31e43]:
+          - link "viviONの風土と働き方の紹介" [ref=f31e44] [cursor=pointer]:
+            - /url: https://public.n-ats.hrmos.co/vivion-fresh/pages/2204846271697846272
+        - paragraph [ref=f31e45]: viviONには多様な個性と「好き」を尊重し合う文化があります。最大の特徴は、実働7時間（10時～18時）という生産性を追求した働き方です。働いた時間ではなく「成果と効率」を評価する制度が根付いています。
+        - paragraph [ref=f31e46]: 無駄な残業を良しとせず、仕事もプライベートも全力で楽しむ。自律したプロフェッショナルが長く活躍できる環境です。
+  - contentinfo [ref=f31e47]:
+    - navigation [ref=f31e48]:
+      - list [ref=f31e49]:
+        - listitem [ref=f31e50]:
+          - text: Powered by
+          - img "HRMOS" [ref=f31e52]

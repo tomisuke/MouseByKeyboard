@@ -1,0 +1,97 @@
+- generic [active] [ref=f59e1]:
+  - generic [ref=f59e2]:
+    - img "旭化成株式会社" [ref=f59e4]
+    - generic [ref=f59e5]:
+      - heading [level=1] [ref=f59e6]:
+        - img "旭化成株式会社" [ref=f59e7]
+      - list [ref=f59e9]:
+        - listitem [ref=f59e10]:
+          - link [ref=f59e11] [cursor=pointer]:
+            - /url: https://www.asahi-kasei-info.com/2028/applicant/contentsmenu/active/contentcd/2
+          - strong [ref=f59e14]: ★本サイトでは、2027年4月以降にご卒業の方を対象に 下記の情報発信・申込受付を適時実施いたします。
+          - text: (1) 学生様向けインターンシップ関連 (2) 学生様向けキャリアセミナー関連 (3) 新卒採用情報 (4)その他学生様向けキャリア支援活動
+          - strong [ref=f59e16]:
+            - text: ※2027年3月ご卒業の方は、27卒向け採用サイトにご登録ください。
+            - link "https://www.asahi-kasei-info.com/2027/" [ref=f59e17] [cursor=pointer]:
+              - /url: https://www.asahi-kasei-info.com/2027/
+    - generic [ref=f59e18]:
+      - generic [ref=f59e19]:
+        - generic [ref=f59e20]:
+          - heading "ログイン" [level=2] [ref=f59e21]
+          - generic [ref=f59e23]:
+            - generic [ref=f59e24]:
+              - generic [ref=f59e25]:
+                - generic [ref=f59e26]:
+                  - term [ref=f59e27]: ID
+                  - definition [ref=f59e28]:
+                    - textbox [ref=f59e29]
+                - generic [ref=f59e30]:
+                  - term [ref=f59e31]: PASSWORD
+                  - definition [ref=f59e32]:
+                    - textbox [ref=f59e33]
+                - paragraph [ref=f59e34]:
+                  - button "ログイン" [ref=f59e35] [cursor=pointer]
+              - generic [ref=f59e36]:
+                - term [ref=f59e37]:
+                  - checkbox "ログイン情報(ＩＤ)を保存する" [ref=f59e38]
+                - definition [ref=f59e39]: ログイン情報(ＩＤ)を保存する
+            - paragraph [ref=f59e40]: ご自分以外の第三者が使用する可能性のあるパソコン（学校・会社・インターネットカフェ・図書館等）をご利用の場合は、チェックを外してログインされることをお奨めします。
+            - paragraph [ref=f59e42]:
+              - link "ID・PASSWORDを忘れた方はこちら" [ref=f59e43] [cursor=pointer]:
+                - /url: javascript:$('#formRefer').submit();
+        - generic [ref=f59e44]:
+          - heading "初めての方はこちら" [level=2] [ref=f59e45]
+          - generic [ref=f59e47]:
+            - paragraph [ref=f59e48]: 新規登録ボタンより個人情報登録をお願いします。
+            - paragraph [ref=f59e49]:
+              - button "新規登録" [ref=f59e50] [cursor=pointer]
+      - generic [ref=f59e52]:
+        - heading "What's New" [level=2] [ref=f59e53]
+        - generic [ref=f59e54]:
+          - generic [ref=f59e55]:
+            - term [ref=f59e56]: 2026年08月01日
+            - definition [ref=f59e57]:
+              - generic [ref=f59e58]:
+                - strong [ref=f59e60]: 【理系博士後期課程の方対象】
+                - text: 2028新卒採用のエントリーを開始しました。 ※2028年3月までに博士の学位を取得予定の方が対象です。 ※文系博士・修士・学部・高専の方は2027年3月以降にご登録をお願いいたします。
+          - generic [ref=f59e61]:
+            - term [ref=f59e62]: 2026年03月01日
+            - definition [ref=f59e63]:
+              - generic [ref=f59e64]:
+                - strong [ref=f59e65]: ＜2027年4月以降にご卒業の方向け＞
+                - text: キャリア支援・新卒採用サイトをオープンしました。
+      - list [ref=f59e68]:
+        - listitem [ref=f59e69]:
+          - link [ref=f59e70] [cursor=pointer]:
+            - /url: https://www.asahi-kasei-info.com/2028/applicant/contentsmenu/active/contentcd/1
+          - separator [ref=f59e72]
+          - strong [ref=f59e76]: i-web CONNECTアプリとの連携を開始しました。
+          - generic [ref=f59e77]:
+            - text: アプリからのマイページへのアクセス、管理が可能となります。 i-web CONNECTをスマートフォンにインストールし、 以下CONNECTコードにてログインしてください。
+            - strong [ref=f59e79]: ※事前に、マイページへの初回ログインをおすませいただく必要があります。
+          - text: CONNECTコード： asahikasei2028
+          - generic [ref=f59e81]:
+            - link [ref=f59e82] [cursor=pointer]:
+              - /url: https://apps.apple.com/jp/app/i-web-connect/id1499299153?mt=8
+              - img "App Store" [ref=f59e83]
+            - link [ref=f59e84] [cursor=pointer]:
+              - /url: https://play.google.com/store/apps/details?id=com.humanage.commonapp&hl=ja&gl=US
+              - img "Google Play で手に入れよう" [ref=f59e85]
+            - separator [ref=f59e86]
+    - generic [ref=f59e87]:
+      - heading "SSL（暗号化）で接続します" [level=3] [ref=f59e88]
+      - paragraph [ref=f59e89]: ここから先は、インターネット上にあなたの個人情報が送信されるため、セキュリティ保護の観点からSSL128bit（暗号化）接続となります。 マイページをご利用になるにあたり、「cookieを有効にする」・「SSLを有効にする」設定が必要です。 ブラウザーの設定が分からない方はお使いのブラウザーのヘルプをご覧ください。
+    - paragraph [ref=f59e90]:
+      - generic [ref=f59e91] [cursor=pointer]: このページのトップへ
+  - generic [ref=f59e93]:
+    - list [ref=f59e94]:
+      - listitem [ref=f59e95]:
+        - link "企業ホームページへ" [ref=f59e96] [cursor=pointer]:
+          - /url: http://www.asahi-kasei-jobs.com/top.html
+      - listitem [ref=f59e97]:
+        - link "会員規約" [ref=f59e98] [cursor=pointer]:
+          - /url: javascript:void(0);
+      - listitem [ref=f59e99]:
+        - link "cookieおよびアクセスログについて" [ref=f59e100] [cursor=pointer]:
+          - /url: javascript:void(0);
+    - paragraph [ref=f59e101]: Copyright © Asahi Kasei Corporation. All rights reserved.

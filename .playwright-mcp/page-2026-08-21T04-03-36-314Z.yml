@@ -1,0 +1,27 @@
+- generic [ref=f49e3]:
+  - heading [level=1] [ref=f49e5]
+  - heading "株式会社帝国データバンク マイページログイン" [level=2] [ref=f49e6]
+  - generic [ref=f49e7]:
+    - table [ref=f49e8]:
+      - rowgroup [ref=f49e9]:
+        - row [ref=f49e10]:
+          - rowheader "ユーザーID" [ref=f49e11]
+          - cell "：" [ref=f49e12]:
+            - text: ：
+            - textbox [ref=f49e13]
+        - row [ref=f49e14]:
+          - rowheader "パスワード" [ref=f49e15]
+          - cell "：" [ref=f49e16]:
+            - text: ：
+            - textbox [ref=f49e17]
+    - paragraph:
+      - link "ログイン" [ref=f49e18] [cursor=pointer]:
+        - /url: javascript:void(0);
+    - paragraph [ref=f49e19]:
+      - link "ユーザーIDを忘れた方" [ref=f49e20] [cursor=pointer]:
+        - /url: reminder/id.aspx
+      - link "パスワードを忘れた方" [ref=f49e21] [cursor=pointer]:
+        - /url: reminder/pass.aspx
+  - paragraph [ref=f49e22]:
+    - link "マイページのご利用にあたって" [ref=f49e23] [cursor=pointer]:
+      - /url: javascript:void(0);

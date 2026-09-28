@@ -1,0 +1,2 @@
+[     416ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://tdb.snar.jp/favicon.ico:0
+[    6427ms] [VERBOSE] [DOM] Input elements should have autocomplete attributes (suggested: "current-password"): (More info: https://goo.gl/9p2vKq) %o @ https://tdb.snar.jp/login.aspx:0

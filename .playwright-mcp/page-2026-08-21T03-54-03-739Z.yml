@@ -1,0 +1,116 @@
+- generic [ref=f8e3]:
+  - banner [ref=f8e4]:
+    - text: ▶︎ ▶︎ ▶︎ ▶︎ ▶︎ ▶︎ ▶︎ ▶︎ ▶︎ ▶︎ ▶︎ ■ ■ ■ ■ ■ ■ ■ ■
+    - generic [ref=f8e5]:
+      - button "メインコンテンツへ" [ref=f8e6] [cursor=pointer]
+      - navigation [ref=f8e7]:
+        - generic [ref=f8e8]:
+          - generic [ref=f8e9]:
+            - generic [ref=f8e10]: account_circle
+            - generic [ref=f8e11]: 石川 泰地さん
+          - generic [ref=f8e12]:
+            - generic [ref=f8e13]: ログイン回数
+            - generic [ref=f8e14]: 30 回
+          - generic [ref=f8e15]:
+            - generic [ref=f8e16]: 前回ログイン日時
+            - generic [ref=f8e17]: 2026/08/21(金) 11:23:15
+          - button "ログアウト" [ref=f8e19] [cursor=pointer]:
+            - generic [ref=f8e20]: logout
+            - text: ログアウト
+        - list [ref=f8e21]:
+          - listitem [ref=f8e22]:
+            - link "▶︎ トップ" [ref=f8e23] [cursor=pointer]:
+              - /url: top
+          - listitem [ref=f8e24]:
+            - link "▶︎ レターボックス" [ref=f8e25] [cursor=pointer]:
+              - /url: letter
+          - listitem [ref=f8e26]:
+            - link [ref=f8e27] [cursor=pointer]:
+              - /url: com/3
+              - text: ▶︎
+              - strong [ref=f8e28]: エントリーシート提出（9月）
+          - listitem [ref=f8e29]:
+            - link [ref=f8e30] [cursor=pointer]:
+              - /url: com/5
+              - text: ▶︎
+              - strong [ref=f8e31]: インターンシップ参加確認フォーム（9月対面）
+          - listitem [ref=f8e32]:
+            - link [ref=f8e33] [cursor=pointer]:
+              - /url: com/13
+              - text: ▶︎
+              - strong [ref=f8e34]: 緊急連絡先登録フォーム
+          - listitem [ref=f8e35]:
+            - link [ref=f8e36]:
+              - /url: com/41
+              - text: ▶︎
+              - strong [ref=f8e37]: 事前説明会 出欠確認アンケート ※8/21 23:59締切
+          - listitem [ref=f8e38]:
+            - link [ref=f8e39] [cursor=pointer]:
+              - /url: shl/2
+              - text: ▶︎
+              - strong [ref=f8e40]: 交通費申請
+          - listitem [ref=f8e41]:
+            - link "▶︎ イベントスケジュール" [ref=f8e42] [cursor=pointer]:
+              - /url: schedule/4
+          - listitem [ref=f8e43]:
+            - link [ref=f8e44] [cursor=pointer]:
+              - /url: blog/16
+              - text: ▶︎
+              - strong [ref=f8e45]: 【理系】インターンシップ・ 就業体験 概要
+          - listitem [ref=f8e46]:
+            - link [ref=f8e47] [cursor=pointer]:
+              - /url: blog/1
+              - text: ▶︎
+              - strong [ref=f8e48]: インターンシップ・就業体験 コース紹介
+          - listitem [ref=f8e49]:
+            - link "▶︎ お問い合わせ" [ref=f8e50] [cursor=pointer]:
+              - /url: toiawase
+        - list [ref=f8e51]:
+          - listitem [ref=f8e52]:
+            - link "■ 募集要項" [ref=f8e53] [cursor=pointer]:
+              - /url: koza/14
+          - listitem [ref=f8e54]:
+            - link "■ 技術系部署紹介" [ref=f8e55] [cursor=pointer]:
+              - /url: koza/5
+          - listitem [ref=f8e56]:
+            - link "■ 事務系部署紹介" [ref=f8e57] [cursor=pointer]:
+              - /url: koza/3
+          - listitem [ref=f8e58]:
+            - link "■ 専任職（一般職）職種紹介" [ref=f8e59] [cursor=pointer]:
+              - /url: koza/9
+          - listitem [ref=f8e60]:
+            - link "■ 会社説明動画" [ref=f8e61] [cursor=pointer]:
+              - /url: blog/7
+          - listitem [ref=f8e62]:
+            - link "■ YouTubeおすすめ動画集" [ref=f8e63] [cursor=pointer]:
+              - /url: blog/2
+          - listitem [ref=f8e64]:
+            - link "■ 選考フロー" [ref=f8e65] [cursor=pointer]:
+              - /url: blog/11
+          - listitem [ref=f8e66]:
+            - link "■ オフィスツアー" [ref=f8e67] [cursor=pointer]:
+              - /url: photo/8
+        - list [ref=f8e68]:
+          - listitem [ref=f8e69]:
+            - link "YouTube(外部へ)" [ref=f8e70] [cursor=pointer]:
+              - /url: https://www.youtube.com/@chiyodacorporation7408
+              - text: YouTube
+          - listitem [ref=f8e71]:
+            - link "Instagram(外部へ)" [ref=f8e72] [cursor=pointer]:
+              - /url: https://www.instagram.com/chiyoda_corporation/
+              - text: Instagram
+          - listitem [ref=f8e73]:
+            - link "登録情報修正" [ref=f8e74] [cursor=pointer]:
+              - /url: ment
+  - main [ref=f8e75]:
+    - heading "▶︎ 事前説明会 出欠確認アンケート ※8/21 23:59締切" [level=1] [ref=f8e76]
+    - generic [ref=f8e77]:
+      - generic [ref=f8e78]: 下記の内容で回答されています。
+      - generic [ref=f8e79]:
+        - button "回答の修正" [ref=f8e81] [cursor=pointer]
+        - generic [ref=f8e84]:
+          - generic [ref=f8e85]: 設問 1
+          - generic [ref=f8e88]:
+            - generic [ref=f8e89]: 説明会中にお伝えしたキーワードをご記入ください。 出欠の確認とさせていただきます。
+            - generic [ref=f8e90]: "20260821"
+        - button "回答の修正" [ref=f8e92] [cursor=pointer]

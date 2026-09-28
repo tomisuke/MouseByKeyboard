@@ -1,0 +1,184 @@
+- generic [ref=f42e3]:
+  - banner [ref=f42e4]:
+    - text: ▶︎ ▶︎ ▶︎ ▶︎ ▶︎ ▶︎ ▶︎ ▶︎ ▶︎ ▶︎ ▶︎ ■ ■ ■ ■ ■ ■ ■ ■
+    - generic [ref=f42e5]:
+      - button "メインコンテンツへ" [ref=f42e6] [cursor=pointer]
+      - navigation [ref=f42e7]:
+        - generic [ref=f42e8]:
+          - generic [ref=f42e9]:
+            - generic [ref=f42e10]: account_circle
+            - generic [ref=f42e11]: 石川 泰地さん
+          - generic [ref=f42e12]:
+            - generic [ref=f42e13]: ログイン回数
+            - generic [ref=f42e14]: 30 回
+          - generic [ref=f42e15]:
+            - generic [ref=f42e16]: 前回ログイン日時
+            - generic [ref=f42e17]: 2026/08/21(金) 11:23:15
+          - button "ログアウト" [ref=f42e19] [cursor=pointer]:
+            - generic [ref=f42e20]: logout
+            - text: ログアウト
+        - list [ref=f42e21]:
+          - listitem [ref=f42e22]:
+            - link "▶︎ トップ" [ref=f42e23]:
+              - /url: top
+          - listitem [ref=f42e24]:
+            - link "▶︎ レターボックス" [ref=f42e25] [cursor=pointer]:
+              - /url: letter
+          - listitem [ref=f42e26]:
+            - link [ref=f42e27] [cursor=pointer]:
+              - /url: com/3
+              - text: ▶︎
+              - strong [ref=f42e28]: エントリーシート提出（9月）
+          - listitem [ref=f42e29]:
+            - link [ref=f42e30] [cursor=pointer]:
+              - /url: com/5
+              - text: ▶︎
+              - strong [ref=f42e31]: インターンシップ参加確認フォーム（9月対面）
+          - listitem [ref=f42e32]:
+            - link [ref=f42e33] [cursor=pointer]:
+              - /url: com/13
+              - text: ▶︎
+              - strong [ref=f42e34]: 緊急連絡先登録フォーム
+          - listitem [ref=f42e35]:
+            - link [ref=f42e36] [cursor=pointer]:
+              - /url: com/41
+              - text: ▶︎
+              - strong [ref=f42e37]: 事前説明会 出欠確認アンケート ※8/21 23:59締切
+          - listitem [ref=f42e38]:
+            - link [ref=f42e39] [cursor=pointer]:
+              - /url: shl/2
+              - text: ▶︎
+              - strong [ref=f42e40]: 交通費申請
+          - listitem [ref=f42e41]:
+            - link "▶︎ イベントスケジュール" [ref=f42e42] [cursor=pointer]:
+              - /url: schedule/4
+          - listitem [ref=f42e43]:
+            - link [ref=f42e44] [cursor=pointer]:
+              - /url: blog/16
+              - text: ▶︎
+              - strong [ref=f42e45]: 【理系】インターンシップ・ 就業体験 概要
+          - listitem [ref=f42e46]:
+            - link [ref=f42e47] [cursor=pointer]:
+              - /url: blog/1
+              - text: ▶︎
+              - strong [ref=f42e48]: インターンシップ・就業体験 コース紹介
+          - listitem [ref=f42e49]:
+            - link "▶︎ お問い合わせ" [ref=f42e50] [cursor=pointer]:
+              - /url: toiawase
+        - list [ref=f42e51]:
+          - listitem [ref=f42e52]:
+            - link "■ 募集要項" [ref=f42e53] [cursor=pointer]:
+              - /url: koza/14
+          - listitem [ref=f42e54]:
+            - link "■ 技術系部署紹介" [ref=f42e55] [cursor=pointer]:
+              - /url: koza/5
+          - listitem [ref=f42e56]:
+            - link "■ 事務系部署紹介" [ref=f42e57] [cursor=pointer]:
+              - /url: koza/3
+          - listitem [ref=f42e58]:
+            - link "■ 専任職（一般職）職種紹介" [ref=f42e59] [cursor=pointer]:
+              - /url: koza/9
+          - listitem [ref=f42e60]:
+            - link "■ 会社説明動画" [ref=f42e61] [cursor=pointer]:
+              - /url: blog/7
+          - listitem [ref=f42e62]:
+            - link "■ YouTubeおすすめ動画集" [ref=f42e63] [cursor=pointer]:
+              - /url: blog/2
+          - listitem [ref=f42e64]:
+            - link "■ 選考フロー" [ref=f42e65] [cursor=pointer]:
+              - /url: blog/11
+          - listitem [ref=f42e66]:
+            - link "■ オフィスツアー" [ref=f42e67] [cursor=pointer]:
+              - /url: photo/8
+        - list [ref=f42e68]:
+          - listitem [ref=f42e69]:
+            - link "YouTube(外部へ)" [ref=f42e70] [cursor=pointer]:
+              - /url: https://www.youtube.com/@chiyodacorporation7408
+              - text: YouTube
+          - listitem [ref=f42e71]:
+            - link "Instagram(外部へ)" [ref=f42e72] [cursor=pointer]:
+              - /url: https://www.instagram.com/chiyoda_corporation/
+              - text: Instagram
+          - listitem [ref=f42e73]:
+            - link "登録情報修正" [ref=f42e74] [cursor=pointer]:
+              - /url: ment
+  - main [ref=f42e75]:
+    - heading "▶︎ トップ" [level=1] [ref=f42e76]
+    - generic [ref=f42e77]:
+      - group "コンテンツカルーセル" [ref=f42e78]:
+        - generic [ref=f42e79]:
+          - generic [ref=f42e80]:
+            - group "3 / 6" [ref=f42e81]:
+              - img "Instagram（外部へ）" [ref=f42e82] [cursor=pointer]
+            - group "4 / 6" [ref=f42e83]:
+              - img "イベントスケジュール" [ref=f42e84] [cursor=pointer]
+            - group "5 / 6" [ref=f42e85]:
+              - img "会社説明動画" [ref=f42e86] [cursor=pointer]
+            - group "6 / 6" [ref=f42e87]:
+              - img "Instagram（外部へ）" [ref=f42e88] [cursor=pointer]
+            - group "1 / 6" [ref=f42e89]:
+              - img "イベントスケジュール" [ref=f42e90] [cursor=pointer]
+            - group "2 / 6" [ref=f42e91]:
+              - img "会社説明動画" [ref=f42e92] [cursor=pointer]
+            - group "3 / 6" [ref=f42e93]:
+              - img "Instagram（外部へ）" [ref=f42e94] [cursor=pointer]
+            - group "4 / 6" [ref=f42e95]:
+              - img "イベントスケジュール" [ref=f42e96] [cursor=pointer]
+            - group "5 / 6" [ref=f42e97]:
+              - img "会社説明動画" [ref=f42e98] [cursor=pointer]
+            - group "6 / 6" [ref=f42e99]:
+              - img "Instagram（外部へ）" [ref=f42e100] [cursor=pointer]
+            - group "1 / 6" [ref=f42e101]:
+              - img "イベントスケジュール" [ref=f42e102] [cursor=pointer]
+            - group "2 / 6" [ref=f42e103]:
+              - img "会社説明動画" [ref=f42e104] [cursor=pointer]
+            - group "3 / 6" [ref=f42e105]:
+              - img "Instagram（外部へ）" [ref=f42e106] [cursor=pointer]
+            - group "4 / 6" [ref=f42e107]:
+              - img "イベントスケジュール" [ref=f42e108] [cursor=pointer]
+          - tablist "カルーセルページ" [ref=f42e109]:
+            - button "1枚目のスライドへ" [ref=f42e110] [cursor=pointer]
+            - button "2枚目のスライドへ" [ref=f42e111] [cursor=pointer]
+            - button "3枚目のスライドへ" [ref=f42e112] [cursor=pointer]
+            - button "4枚目のスライドへ" [ref=f42e113] [cursor=pointer]
+            - button "5枚目のスライドへ" [ref=f42e114] [cursor=pointer]
+            - button "6枚目のスライドへ" [ref=f42e115] [cursor=pointer]
+          - button "前のスライドへ" [ref=f42e116] [cursor=pointer]: prev
+          - button "次のスライドへ" [ref=f42e117] [cursor=pointer]: next
+          - button "カルーセル再生" [ref=f42e118] [cursor=pointer]: 再生
+          - button "カルーセル停止" [ref=f42e119] [cursor=pointer]: 停止
+      - generic [ref=f42e120]:
+        - heading "石川 泰地さんへのメッセージ" [level=2] [ref=f42e121]
+        - generic [ref=f42e122]:
+          - text: 石川 泰地さん
+          - generic [ref=f42e123]: 夏季インターンシップへご参加申し込みをいただきありがとうございます！
+          - generic [ref=f42e124]: ＜9月対面インターンシップ概要＞
+          - text: ■日程：8月31日(月)～9月4日(金) ■時間：8:00～16:36 ※初日の集合時間は9:10（予定）、最終日は終了後に1時間程度の社内懇親会を予定（参加任意） ■交通：交通手段の指定なし 航空券・特急券をご利用の場合は、ご自身でご手配ください（領収書のご提出は不要） ■宿泊：宿泊の方のホテルは当社にて手配（みなとみらい線 馬車道駅周辺） 宿泊期間は前日8/30（日）15:00以降 チェックイン～9/4（金）チェックアウトとなります。 前日8/30（日）にホテルへご到着いただくようお願いいたします。 ■その他： 詳細は追ってご連絡をいたします。
+          - generic [ref=f42e125]: ＜事前説明会＞
+          - text: 事前説明会の日時については、マイページ左側のメニュー「インターンシップ参加確認フォーム（9月対面）」でご回答いただいた日時をご確認ください。 当日の会議URLや詳細については、事前説明会開催の1週間前および前日にご案内いたします。
+          - separator [ref=f42e126]
+          - text: こちらの「My Page」にて今後のお知らせのご確認や予約申込みの手続きを おこなっていただけます。 適宜アクセスしてご確認ください。 住所やメールアドレスなど個人情報に変更があった場合は、 「登録情報修正」ボタンより、修正をお願い致します。 みなさまとお会いできる日をスタッフ一同楽しみにしております。
+          - separator [ref=f42e127]
+          - text: ━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+          - generic [ref=f42e128]: ～世界を舞台に働くリアルとは？若手トークセッション～ ＼アーカイブ 公開中！！！／
+          - text: ━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 入社3年目～4年目の若手社員が登壇し、巨大プロジェクトを動かす当社の魅力や、リアルな働き方を本音で語り尽くします。 グローバルな仕事のワクワク感から若手ならではのぶっちゃけ話はもちろん、事務系・技術系それぞれのインターンについてまで、皆さんが本当に知りたい「リアル」が詰まった1時間をお届けしておりますので、ぜひご覧ください！ URL：
+          - link "https://www.youtube.com/live/X8bKBTJWfeA" [ref=f42e130] [cursor=pointer]:
+            - /url: https://www.youtube.com/live/X8bKBTJWfeA
+          - link [ref=f42e132] [cursor=pointer]:
+            - /url: https://upload.axol.jp/zw/s/chiyodacorp_28/topimg/0000000430_gprj3k8ngb_L.png
+            - img "トップ画面メッセージ内の画像" [ref=f42e133]
+          - separator [ref=f42e134]
+          - text: ━━━━━━━━━━━━━━━━━━
+          - generic [ref=f42e135]: ～プラントエンジニアリング業界 超解剖～ ＼YouTubeにて 公開中！！！／
+          - text: ━━━━━━━━━━━━━━━━━━ プラントエンジニアリング業界の5社がコラボしたYouTube配信です。 各社の特色や社風が分かる内容となっておりますので、ぜひお気軽にご覧ください！ また、よろしければコメントや「いいね」で応援いただけますとうれしいです。 URL：
+          - link "https://www.youtube.com/watch?v=INjPDHL3H20" [ref=f42e137] [cursor=pointer]:
+            - /url: https://www.youtube.com/watch?v=INjPDHL3H20
+          - link [ref=f42e139] [cursor=pointer]:
+            - /url: https://upload.axol.jp/zw/s/chiyodacorp_28/topimg/0000000164_7744688985_L.jpg
+            - img "トップ画面メッセージ内の画像" [ref=f42e140]
+      - generic [ref=f42e141]:
+        - heading "部署・職種紹介" [level=2] [ref=f42e142]
+        - generic [ref=f42e143]:
+          - img "技術系部署紹介コンテンツの画像" [ref=f42e144] [cursor=pointer]
+          - img "事務系部署紹介コンテンツの画像" [ref=f42e145] [cursor=pointer]
+          - img "専任職（一般職）職種紹介コンテンツの画像" [ref=f42e146] [cursor=pointer]

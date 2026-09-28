@@ -53,12 +53,8 @@ def _check_single_instance() -> bool:
 def main() -> None:
     if not _check_single_instance():
         print("[KeyNavigator] KeyNavigatorは既に起動しています。")
-        ctypes.windll.user32.MessageBoxW(
-            0,
-            "KeyNavigatorは既に起動しています。\nタスクトレイのアイコンを確認してください。",
-            "KeyNavigator - 二重起動防止",
-            0x00000030  # MB_ICONWARNING
-        )
+        # スタートアップや別のランチャーから同時に起動されることがあるため、
+        # 既存プロセスがあれば通知を出さずに終了する。
         sys.exit(0)
 
     # スタートアップ起動対策: タスクバー(Shell_TrayWnd)が表示されるまで待機する

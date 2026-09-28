@@ -1,0 +1,25 @@
+[HotkeyManager] 登録: 'ctrl+alt+shift+F1' -> hotkey_active (id=300)
+[HotkeyManager] 解析失敗: ''
+[KeyNavigator] 起動しました。タスクトレイのアイコンを右クリックで操作できます。
+  全画面スキャン:      
+  アクティブ画面:      ctrl+alt+shift+F1
+  プレフィックス:      ダブル=;  右='  中央=,
+[KN] Scan start hwnd=2228820 method=uia
+[KN] Scan done: 69 elements in 969ms
+[KeyboardHook] Hook installed successfully
+[KN] Showing overlay (69 elements)
+LIVE OVERLAY PASS origin= (-2160, -768) tags_per_monitor= [0, 69]
+[KeyboardHook] Hook uninstalled
+[KN] Scan start hwnd=269542 method=uia
+[KN] Scan done: 4 elements in 71ms
+[KeyboardHook] Hook installed successfully
+[KN] Showing overlay (4 elements)
+LIVE OVERLAY PASS origin= (-2160, -768) tags_per_monitor= [4, 0]
+[KN] Toggling search method to image
+[KeyboardHook] Hook uninstalled
+[KN] Scan start hwnd=269542 method=image
+[KN] Scan done: 10 elements in 1268ms
+[KeyboardHook] Hook installed successfully
+[KN] Showing overlay (10 elements)
+LIVE OVERLAY PASS origin= (-2160, -768) tags_per_monitor= [10, 0]
+[KeyboardHook] Hook uninstalled

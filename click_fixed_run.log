@@ -1,0 +1,7 @@
+[HotkeyManager] 登録: 'ctrl+alt+shift+F1' -> hotkey_active (id=300)
+[HotkeyManager] 解析失敗: ''
+[KeyNavigator] 起動しました。タスクトレイのアイコンを右クリックで操作できます。
+  全画面スキャン:      
+  アクティブ画面:      ctrl+alt+shift+F1
+  プレフィックス:      ダブル=;  右='  中央=,
+[HotkeyManager] 停止

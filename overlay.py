@@ -65,12 +65,7 @@ class HintOverlay:
         t.configure(bg=_TRANSPARENT)
         t.withdraw()
 
-        # Cover all monitors
-        self._vx = win32api.GetSystemMetrics(76)   # SM_XVIRTUALSCREEN
-        self._vy = win32api.GetSystemMetrics(77)   # SM_YVIRTUALSCREEN
-        self._vw = win32api.GetSystemMetrics(78)   # SM_CXVIRTUALSCREEN
-        self._vh = win32api.GetSystemMetrics(79)   # SM_CYVIRTUALSCREEN
-        t.geometry(f'{self._vw}x{self._vh}{self._vx:+d}{self._vy:+d}')
+        self._refresh_screen_bounds()
 
         self._canvas = tk.Canvas(t, bg=_TRANSPARENT, highlightthickness=0)
         self._canvas.pack(fill=tk.BOTH, expand=True)
@@ -78,6 +73,20 @@ class HintOverlay:
         # Bind keyboard input to this window so we receive keys without
         # a global suppress hook.  The window grabs focus when shown.
         t.bind('<KeyPress>', self._handle_keypress)
+
+    def _refresh_screen_bounds(self) -> bool:
+        """Refresh the physical desktop after monitor/reconnection changes.
+
+        Tk negative offsets are right/bottom-relative; absolute placement is
+        done with SetWindowPos after mapping, so request only a neutral origin
+        here. Existing canvas coordinates must be rebuilt if the origin moves.
+        """
+        bounds = tuple(win32api.GetSystemMetrics(n) for n in (76, 77, 78, 79))
+        if bounds == (self._vx, self._vy, self._vw, self._vh):
+            return False
+        self._vx, self._vy, self._vw, self._vh = bounds
+        self._top.geometry(f'{self._vw}x{self._vh}+0+0')
+        return True
 
     def _handle_keypress(self, event: tk.Event) -> None:
         keysym = event.keysym.lower()
@@ -126,12 +135,13 @@ class HintOverlay:
         return bg_id, outline_ids, tx_id, x1, y1, x2, y2
 
     def show(self, elements: list, tags: List[str], scan_finished: bool = False) -> None:
+        screen_changed = self._refresh_screen_bounds()
         font = self._get_font()
 
         # 既存のバッジと新しいリクエストの互換性をチェック
         # elements の数が現在の _badge_items より減っている、または
         # 前半のタグが一致していない場合は、全描き直しを行う
-        needs_full_redraw = False
+        needs_full_redraw = screen_changed
         if len(elements) < len(self._badge_items):
             needs_full_redraw = True
         else:

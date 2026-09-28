@@ -1,0 +1,112 @@
+[HotkeyManager] 登録: 'ctrl+alt+shift+F1' -> hotkey_active (id=300)
+[HotkeyManager] 解析失敗: ''
+[KeyNavigator] 起動しました。タスクトレイのアイコンを右クリックで操作できます。
+  全画面スキャン:      
+  アクティブ画面:      ctrl+alt+shift+F1
+  プレフィックス:      ダブル=;  右='  中央=,
+[KN] Scan start hwnd=4002614 method=uia
+[KN] Scan done: 0 elements in 256ms
+[KN] No elements, aborting
+[KN] Fallback: UIA found 0 elements. Retrying with image mode.
+[KN] Scan start hwnd=4002614 method=image
+[KN] Scan done: 570 elements in 1829ms
+[KeyboardHook] Hook installed successfully
+[KN] Showing overlay (570 elements)
+[KeyboardHook] Hook uninstalled
+[KN] Scan start hwnd=5641098 method=uia
+[KN] Scan done: 0 elements in 79ms
+[KN] No elements, aborting
+[KN] Fallback: UIA found 0 elements. Retrying with image mode.
+[KN] Scan start hwnd=5641098 method=image
+[KN] Scan done: 66 elements in 2205ms
+[KeyboardHook] Hook installed successfully
+[KN] Showing overlay (66 elements)
+[KeyboardHook] Hook uninstalled
+[KN] Scan start hwnd=6753706 method=uia
+[KN] Scan done: 0 elements in 191ms
+[KN] No elements, aborting
+[KN] Fallback: UIA found 0 elements. Retrying with image mode.
+[KN] Scan start hwnd=6753706 method=image
+[KN] Scan done: 996 elements in 1809ms
+[KeyboardHook] Hook installed successfully
+[KN] Showing overlay (996 elements)
+[KeyboardHook] Hook uninstalled
+[KN] Scan start hwnd=5641098 method=uia
+[KN] Scan done: 0 elements in 38ms
+[KN] No elements, aborting
+[KN] Fallback: UIA found 0 elements. Retrying with image mode.
+[KN] Scan start hwnd=5641098 method=image
+[KN] Scan done: 74 elements in 6034ms
+[KeyboardHook] Hook installed successfully
+[KN] Showing overlay (74 elements)
+[KeyboardHook] Hook uninstalled
+[KN] Scan start hwnd=5641098 method=uia
+[KN] Scan done: 0 elements in 31ms
+[KN] No elements, aborting
+[KN] Fallback: UIA found 0 elements. Retrying with image mode.
+[KN] Scan start hwnd=5641098 method=image
+[KN] Scan done: 75 elements in 3521ms
+[KeyboardHook] Hook installed successfully
+[KN] Showing overlay (75 elements)
+[KN] Toggling search method to uia
+[KeyboardHook] Hook uninstalled
+[KN] Scan start hwnd=5641098 method=uia
+[KN] Scan done: 0 elements in 104ms
+[KN] No elements, aborting
+[KN] Fallback: UIA found 0 elements. Retrying with image mode.
+[KN] Scan start hwnd=5641098 method=image
+[KN] Scan done: 75 elements in 5417ms
+[KeyboardHook] Hook installed successfully
+[KN] Showing overlay (75 elements)
+[KN] Toggling search method to uia
+[KeyboardHook] Hook uninstalled
+[KN] Scan start hwnd=5641098 method=uia
+[KN] Scan done: 0 elements in 40ms
+[KN] No elements, aborting
+[KN] Fallback: UIA found 0 elements. Retrying with image mode.
+[KN] Scan start hwnd=5641098 method=image
+[KN] Scan done: 75 elements in 2900ms
+[KeyboardHook] Hook installed successfully
+[KN] Showing overlay (75 elements)
+[KeyboardHook] Hook uninstalled
+[KN] Sent left physical click at (-1608, 921)
+[KN] Scan start hwnd=5641098 method=uia
+[KN] Scan done: 0 elements in 26ms
+[KN] No elements, aborting
+[KN] Fallback: UIA found 0 elements. Retrying with image mode.
+[KN] Scan start hwnd=5641098 method=image
+[KN] Scan done: 76 elements in 2471ms
+[KeyboardHook] Hook installed successfully
+[KN] Showing overlay (76 elements)
+[KeyboardHook] Hook uninstalled
+[KN] Scan start hwnd=5641098 method=uia
+[KN] Scan done: 0 elements in 52ms
+[KN] No elements, aborting
+[KN] Fallback: UIA found 0 elements. Retrying with image mode.
+[KN] Scan start hwnd=5641098 method=image
+[KN] Scan done: 74 elements in 2648ms
+[KeyboardHook] Hook installed successfully
+[KN] Showing overlay (74 elements)
+[KeyboardHook] Hook uninstalled
+[KN] Sent left physical click at (-1533, 861)
+[KN] Scan start hwnd=13175332 method=image
+[KN] Scan done: 478 elements in 5120ms
+[KeyboardHook] Hook installed successfully
+[KN] Showing overlay (478 elements)
+[KeyboardHook] Hook uninstalled
+[KN] Sent left physical click at (1611, 1953)
+[KN] Scan start hwnd=5641098 method=uia
+[KN] Scan done: 0 elements in 24ms
+[KN] No elements, aborting
+[KN] Fallback: UIA found 0 elements. Retrying with image mode.
+[KN] Scan start hwnd=5641098 method=image
+[KN] Scan done: 76 elements in 2706ms
+[KeyboardHook] Hook installed successfully
+[KN] Showing overlay (76 elements)
+[KeyboardHook] Hook uninstalled
+[KN] Sent left physical click at (-1548, 801)
+[KN] Scan start hwnd=13175332 method=image
+[KN] Scan done: 227 elements in 2488ms
+[KeyboardHook] Hook installed successfully
+[KN] Showing overlay (227 elements)
+[KeyboardHook] Hook uninstalled

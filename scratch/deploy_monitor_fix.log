@@ -1,0 +1,29 @@
+**********************
+PowerShell トランスクリプトの開始
+開始時刻: 20260928120455
+ユーザー名: TOMISUKEDESKTOP\Tomisuke
+RunAs ユーザー: TOMISUKEDESKTOP\Tomisuke
+構成名: 
+マシン: TOMISUKEDESKTOP (Microsoft Windows NT 10.0.26200.0)
+ホスト アプリケーション: C:\Program Files\PowerShell\7\pwsh.dll -NoProfile -File C:\Users\Tomisuke\local\Activity\MouseByKeyboard\scratch\deploy_monitor_fix.ps1
+プロセス ID: 67284
+PSVersion: 7.6.6
+PSEdition: Core
+GitCommitId: 7.6.6
+OS: Microsoft Windows 10.0.26200
+Platform: Win32NT
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1, 6.0, 7.0
+PSRemotingProtocolVersion: 2.4
+SerializationVersion: 1.1.0.1
+WSManStackVersion: 3.0
+**********************
+トランスクリプトが開始されました。出力ファイルは C:\Users\Tomisuke\local\Activity\MouseByKeyboard\scratch\deploy_monitor_fix.log です
+DEPLOYED PID=67464
+
+Algorithm       Hash                                                                   Path
+---------       ----                                                                   ----
+SHA256          E172FAE753DE637EC28085BEAB4C8F5E7D641328FDF587A4F8C68D8970687B62       C:\Users\Tomisuke\local\Activit…
+**********************
+PowerShell トランスクリプトの終了
+終了時刻: 20260928120456
+**********************

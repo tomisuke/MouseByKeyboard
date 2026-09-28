@@ -35,18 +35,25 @@ class TrayIcon:
         self._thread.start()
 
     def _run(self) -> None:
-        menu = pystray.Menu(
-            pystray.MenuItem('設定を開く', self._on_settings),
-            pystray.Menu.SEPARATOR,
-            pystray.MenuItem('終了', self._on_quit),
-        )
-        self._icon = pystray.Icon(
-            name='KeyNavigator',
-            icon=_make_icon(),
-            title='KeyNavigator',
-            menu=menu,
-        )
-        self._icon.run()
+        try:
+            menu = pystray.Menu(
+                pystray.MenuItem('設定を開く', self._on_settings),
+                pystray.Menu.SEPARATOR,
+                pystray.MenuItem('終了', self._on_quit),
+            )
+            self._icon = pystray.Icon(
+                name='KeyNavigator',
+                icon=_make_icon(),
+                title='KeyNavigator',
+                menu=menu,
+            )
+            self._icon.run()
+        except Exception as e:
+            import sys
+            import traceback
+            print(f"[TrayIcon] pystrayの実行中にエラーが発生しました: {e}", file=sys.stderr)
+            traceback.print_exc(file=sys.stderr)
+            self._queue.put({'type': 'quit'})
 
     def _on_settings(self, _icon, _item) -> None:
         self._queue.put({'type': 'open_settings'})

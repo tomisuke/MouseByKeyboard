@@ -1,0 +1,77 @@
+- generic [ref=f65e3]:
+  - banner [ref=f65e4]:
+    - link [ref=f65e6] [cursor=pointer]:
+      - /url: https://axol.jp/zw/s/e-nexco_28/mypage/top
+      - img "東日本高速道路株式会社のロゴ" [ref=f65e7]
+    - text: ■ ■ ■ ■
+    - generic [ref=f65e8]:
+      - button "メインコンテンツへ" [ref=f65e9] [cursor=pointer]
+      - navigation [ref=f65e10]:
+        - generic [ref=f65e11]:
+          - generic [ref=f65e12]:
+            - generic [ref=f65e13]: account_circle
+            - generic [ref=f65e14]: 石川 泰地さん
+          - generic [ref=f65e15]:
+            - generic [ref=f65e16]: ログイン回数
+            - generic [ref=f65e17]: 8 回
+          - generic [ref=f65e18]:
+            - generic [ref=f65e19]: 前回ログイン日時
+            - generic [ref=f65e20]: 2026/08/21(金) 00:02:02
+          - button "ログアウト" [ref=f65e22] [cursor=pointer]:
+            - generic [ref=f65e23]: logout
+            - text: ログアウト
+        - list [ref=f65e24]:
+          - listitem [ref=f65e25]:
+            - link "トップ" [ref=f65e26]:
+              - /url: top
+          - listitem [ref=f65e27]:
+            - link "交通費申請" [ref=f65e28] [cursor=pointer]:
+              - /url: shl/1
+          - listitem [ref=f65e29]:
+            - link "☆東日本高速道路（NEXCO東日本）｜ワンキャリ企業説明会-☆(外部へ)" [ref=f65e30] [cursor=pointer]:
+              - /url: https://youtu.be/zprKps5ObkM
+              - strong [ref=f65e31]: ☆東日本高速道路（NEXCO東日本）｜ワンキャリ企業説明会-☆
+              - generic [ref=f65e32]: open_in_new
+          - listitem [ref=f65e33]:
+            - link "レターボックス 17" [ref=f65e34] [cursor=pointer]:
+              - /url: letter
+              - text: レターボックス
+              - generic [ref=f65e35]: "17"
+          - listitem [ref=f65e36]:
+            - link "よくあるご質問" [ref=f65e37] [cursor=pointer]:
+              - /url: qa/5
+        - list [ref=f65e38]:
+          - listitem [ref=f65e39]:
+            - link "■ 交通費申請マニュアル" [ref=f65e40] [cursor=pointer]:
+              - /url: koza/27
+          - listitem [ref=f65e41]:
+            - link "交通費宿泊費についてのご案内(外部へ)" [ref=f65e42] [cursor=pointer]:
+              - /url: https://upload.axol.jp/zw/s/e-nexco_28/contents/交通費宿泊費支給についてのご案内v3.pdf
+              - text: ■ 交通費宿泊費についてのご案内
+          - listitem [ref=f65e43]:
+            - link "■ 登録情報修正" [ref=f65e44] [cursor=pointer]:
+              - /url: ment
+          - listitem [ref=f65e45]:
+            - link "■ お問い合わせ" [ref=f65e46] [cursor=pointer]:
+              - /url: toiawase
+  - main [ref=f65e47]:
+    - heading "トップ" [level=1] [ref=f65e48]
+    - generic [ref=f65e49]:
+      - generic [ref=f65e50]: こんにちは！ NEXCO東日本 採用係です。 このたびは、当社にエントリーいただきありがとうございました！ インターンシップに関することや、イベントの実施等についても、本マイページでご連絡させて頂きますので定期的にご確認をお願いいたします。
+      - generic [ref=f65e52]:
+        - heading "石川 泰地さんへのメッセージ" [level=2] [ref=f65e53]
+        - generic [ref=f65e54]:
+          - separator [ref=f65e55]
+          - separator [ref=f65e56]
+          - generic [ref=f65e57]: ※NEXCO東日本 採用係の休業日について※
+          - text: 私たち採用係は、土日祝日にお休みをいただいております。 休暇前15時以降のご連絡にはすぐに対応できかねますので、お急ぎの場合はお電話でご連絡ください。 連絡先：03-3506-0317 基本的にはマイページメニュー【お問い合わせ】よりご連絡いただきますようお願い申し上げます。
+          - separator [ref=f65e58]
+          - text: ☆東日本高速道路（NEXCO東日本）｜ワンキャリ企業説明会-☆
+          - generic [ref=f65e59]: 新しい企業説明の動画が公開されました！
+          - text: 企業研究の一環として、ぜひご覧ください。
+          - link:
+            - /url: https://youtu.be/zprKps5ObkM
+          - link "https://youtu.be/zprKps5ObkM" [ref=f65e60] [cursor=pointer]:
+            - /url: https://youtu.be/zprKps5ObkM
+          - separator [ref=f65e61]
+          - text: "[ご連絡事項] ●当社では、これからの各種ご案内などをMypageにてお知らせいたしますので、定期的なご確認をお願いいたします。 ●当社からMypageにあなた宛のメッセージを送信する際には、同時にご登録いただいたe-mailアドレスにもお知らせします。 ●e-mailアドレス、住所、電話番号等に変更があった場合は、Mypage内の基本情報変更よりすみやかに変更をおこなってください。 ●発行したID、および登録されたパスワードは、今後Mypageをご覧いただく際に必要となりますので、忘れないようにメモなどに控えておかれるようお願いいたします。 ●ご不明な点等ございましたらお問い合わせフォームよりご連絡ください。 NEXCO東日本 人事課 採用担当一同"

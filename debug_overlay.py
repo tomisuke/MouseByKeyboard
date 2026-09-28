@@ -43,9 +43,17 @@ def main():
         if not hwnd:
             hwnd = win32gui.GetForegroundWindow()
 
-        print(f"Scanning HWND: {hwnd} ({win32gui.GetClassName(hwnd)})")
+        print(f"Scanning HWND: {hwnd}")
+        try:
+            print(f"ClassName: {win32gui.GetClassName(hwnd)}")
+        except Exception as e:
+            print(f"Could not get class name: {e}")
         t0 = time.time()
-        elements = _scan_hwnd(hwnd, 2000)
+        try:
+            elements = _scan_hwnd(hwnd, 2000)
+        except Exception as e:
+            print(f"Scan failed: {e}")
+            elements = []
         print(f"Found {len(elements)} elements in {(time.time()-t0)*1000:.0f}ms")
 
         def show():

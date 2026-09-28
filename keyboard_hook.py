@@ -207,3 +207,64 @@ class SelectiveKeyboardHook:
                 pass
             
         return _user32.CallNextHookEx(self._h_hook, nCode, wParam, lParam)
+
+
+class MouseHook:
+    """
+    Windowsの低レベルマウスフック (WH_MOUSE_LL) を使用し、
+    マウスクリック（左・右・中央クリック）を検知してコールバックを呼び出すクラス。
+    イベント自体はブロック（抑制）せず、パススルーする。
+    """
+    def __init__(self, callback: Callable[[], None]) -> None:
+        self._callback = callback
+        self._h_hook: Optional[HHOOK] = None
+        self._hook_proc_ref: Optional[HOOKPROC] = None
+
+    def install(self) -> bool:
+        if self._h_hook is not None:
+            return True
+
+        # 元のPython関数への参照をインスタンス変数として保持し、GCを防ぐ
+        self._raw_hook_proc = lambda nCode, wParam, lParam: self._hook_proc(nCode, wParam, lParam)
+        self._hook_proc_ref = HOOKPROC(self._raw_hook_proc)
+        
+        WH_MOUSE_LL = 14
+        h_inst = _kernel32.GetModuleHandleW(None)
+        self._h_hook = _user32.SetWindowsHookExW(
+            WH_MOUSE_LL,
+            self._hook_proc_ref,
+            h_inst,
+            0
+        )
+        
+        if not self._h_hook:
+            err = ctypes.get_last_error()
+            print(f"[MouseHook] Hook installation failed, error={err}")
+            self._hook_proc_ref = None
+            self._raw_hook_proc = None
+            return False
+            
+        print("[MouseHook] Hook installed successfully")
+        return True
+
+    def uninstall(self) -> None:
+        if self._h_hook is not None:
+            _user32.UnhookWindowsHookEx(self._h_hook)
+            self._h_hook = None
+            self._hook_proc_ref = None
+            self._raw_hook_proc = None
+            print("[MouseHook] Hook uninstalled")
+
+    def __del__(self) -> None:
+        self.uninstall()
+
+    def _hook_proc(self, nCode: int, wParam: int, lParam: int) -> int:
+        try:
+            if nCode == 0:  # HC_ACTION
+                # WM_LBUTTONDOWN = 0x0201, WM_RBUTTONDOWN = 0x0204, WM_MBUTTONDOWN = 0x0207
+                if wParam in (0x0201, 0x0204, 0x0207):
+                    self._callback()
+        except Exception as e:
+            print(f"[MouseHook] Error in hook callback: {e}")
+            
+        return _user32.CallNextHookEx(self._h_hook, nCode, wParam, lParam)

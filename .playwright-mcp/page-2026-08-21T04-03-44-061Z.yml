@@ -1,0 +1,14 @@
+- generic [ref=f50e3]:
+  - heading [level=1] [ref=f50e5]:
+    - link [ref=f50e6] [cursor=pointer]:
+      - /url: ../index.aspx
+      - img "長瀬産業株式会社" [ref=f50e7]
+  - generic [ref=f50e8]:
+    - generic [ref=f50e9]:
+      - heading [level=2] [ref=f50e10]
+      - paragraph [ref=f50e12]: 画面がタイムアウトしました。お手数ですが再度ログインし直してください。
+      - paragraph [ref=f50e13]:
+        - link "ログイン画面に戻る" [ref=f50e14] [cursor=pointer]:
+          - /url: javascript:__doPostBack('lkb_LogoutErr','')
+    - link "↑ページトップ" [ref=f50e17] [cursor=pointer]:
+      - /url: "#header"

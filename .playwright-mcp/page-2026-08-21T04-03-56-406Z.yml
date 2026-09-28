@@ -1,0 +1,68 @@
+- generic [active] [ref=f52e1]:
+  - generic [ref=f52e2]:
+    - img "日本経済新聞社" [ref=f52e4]
+    - heading [level=1] [ref=f52e6]:
+      - img "日本経済新聞社" [ref=f52e7]
+    - generic [ref=f52e8]:
+      - generic [ref=f52e9]:
+        - generic [ref=f52e10]:
+          - heading "ログイン" [level=2] [ref=f52e11]
+          - generic [ref=f52e13]:
+            - generic [ref=f52e14]:
+              - generic [ref=f52e15]:
+                - generic [ref=f52e16]:
+                  - term [ref=f52e17]: ID
+                  - definition [ref=f52e18]:
+                    - textbox [ref=f52e19]
+                - generic [ref=f52e20]:
+                  - term [ref=f52e21]: PASSWORD
+                  - definition [ref=f52e22]:
+                    - textbox [ref=f52e23]
+                - paragraph [ref=f52e24]:
+                  - button "ログイン" [ref=f52e25] [cursor=pointer]
+              - generic [ref=f52e26]:
+                - term [ref=f52e27]:
+                  - checkbox "ログイン情報(ＩＤ)を保存する" [ref=f52e28]
+                - definition [ref=f52e29]: ログイン情報(ＩＤ)を保存する
+            - paragraph [ref=f52e30]: ご自分以外の第三者が使用する可能性のあるパソコン（学校・会社・インターネットカフェ・図書館等）をご利用の場合は、チェックを外してログインされることをお奨めします。
+            - paragraph [ref=f52e32]:
+              - link "ID・PASSWORDを忘れた方はこちら" [ref=f52e33] [cursor=pointer]:
+                - /url: javascript:$('#formRefer').submit();
+            - generic [ref=f52e34]:
+              - paragraph [ref=f52e35]: 以下の就職サイトをご利用の方は、同一のIDとパスワードでマイページへのログインが可能です
+              - paragraph [ref=f52e36]: ※ご利用頂くにはマイページへの初回ログインを済ませている必要があります
+              - list [ref=f52e37]:
+                - listitem [ref=f52e38]:
+                  - link [ref=f52e39] [cursor=pointer]:
+                    - /url: javascript:document.nikkeiloginform.submit();
+                    - img "キャリタス就活" [ref=f52e40]
+              - paragraph [ref=f52e41]: バナーをクリック後、ログインフォームからログインしてください
+        - generic [ref=f52e42]:
+          - heading "初めての方はこちら" [level=2] [ref=f52e43]
+          - generic [ref=f52e45]:
+            - paragraph [ref=f52e46]: 新規登録ボタンより個人情報登録をお願いします。
+            - paragraph [ref=f52e47]:
+              - button "新規登録" [ref=f52e48] [cursor=pointer]
+      - generic [ref=f52e50]:
+        - heading "What's New" [level=2] [ref=f52e51]
+        - generic [ref=f52e53]:
+          - term [ref=f52e54]: 2026年02月02日
+          - definition [ref=f52e55]:
+            - strong [ref=f52e57]: こちらは、2028年3月卒業予定の方向けのページです！ ※障がい者手帳をお持ちの方もこちらからご登録ください。
+    - generic [ref=f52e58]:
+      - heading "SSL（暗号化）で接続します" [level=3] [ref=f52e59]
+      - paragraph [ref=f52e60]: ここから先は、インターネット上にあなたの個人情報が送信されるため、セキュリティ保護の観点からSSL128bit（暗号化）接続となります。 マイページをご利用になるにあたり、「cookieを有効にする」・「SSLを有効にする」設定が必要です。 ブラウザーの設定が分からない方はお使いのブラウザーのヘルプをご覧ください。
+    - paragraph [ref=f52e61]:
+      - generic [ref=f52e62] [cursor=pointer]: このページのトップへ
+  - generic [ref=f52e64]:
+    - list [ref=f52e65]:
+      - listitem [ref=f52e66]:
+        - link "企業ホームページへ" [ref=f52e67] [cursor=pointer]:
+          - /url: https://www.nikkei.com/
+      - listitem [ref=f52e68]:
+        - link "お問い合わせ" [ref=f52e69] [cursor=pointer]:
+          - /url: mailto:saiyo@nex.nikkei.co.jp
+      - listitem [ref=f52e70]:
+        - link "会員規約" [ref=f52e71] [cursor=pointer]:
+          - /url: javascript:void(0);
+    - paragraph [ref=f52e72]: No reproduction without permission.

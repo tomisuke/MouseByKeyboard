@@ -30,7 +30,47 @@ from app import App
 from tray import TrayIcon
 
 
+_app_mutex = None
+
+
+def _check_single_instance() -> bool:
+    global _app_mutex
+    try:
+        import win32event
+        import win32api
+        import winerror
+        # システム全体で一意の名前のミューテックスを作成
+        _app_mutex = win32event.CreateMutex(None, True, "Global\\KeyNavigator_SingleInstance_Mutex_998877")
+        last_error = win32api.GetLastError()
+        # ERROR_ALREADY_EXISTS = 183
+        if last_error == winerror.ERROR_ALREADY_EXISTS:
+            return False
+        return True
+    except Exception:
+        return True
+
+
 def main() -> None:
+    if not _check_single_instance():
+        print("[KeyNavigator] KeyNavigatorは既に起動しています。")
+        ctypes.windll.user32.MessageBoxW(
+            0,
+            "KeyNavigatorは既に起動しています。\nタスクトレイのアイコンを確認してください。",
+            "KeyNavigator - 二重起動防止",
+            0x00000030  # MB_ICONWARNING
+        )
+        sys.exit(0)
+
+    # スタートアップ起動対策: タスクバー(Shell_TrayWnd)が表示されるまで待機する
+    import win32gui
+    import time
+    wait_attempts = 20  # 0.5s * 20 = 10秒
+    for _ in range(wait_attempts):
+        hwnd_tray = win32gui.FindWindow("Shell_TrayWnd", None)
+        if hwnd_tray:
+            break
+        time.sleep(0.5)
+
     config = Config.load()
 
     root = tk.Tk()
@@ -52,7 +92,11 @@ def main() -> None:
         root.mainloop()
     except KeyboardInterrupt:
         pass
+    finally:
+        sys.exit(0)
 
 
 if __name__ == '__main__':
+    import multiprocessing
+    multiprocessing.freeze_support()
     main()

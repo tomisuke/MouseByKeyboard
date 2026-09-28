@@ -1,0 +1,14 @@
+- generic [ref=f48e3]:
+  - heading [level=1] [ref=f48e5]:
+    - link [ref=f48e6] [cursor=pointer]:
+      - /url: ../index.aspx
+      - img "株式会社帝国データバンク" [ref=f48e7]
+  - generic [ref=f48e8]:
+    - generic [ref=f48e9]:
+      - heading [level=2] [ref=f48e10]
+      - paragraph [ref=f48e12]: 画面がタイムアウトしました。お手数ですが再度ログインし直してください。
+      - paragraph [ref=f48e13]:
+        - link "ログイン画面に戻る" [ref=f48e14] [cursor=pointer]:
+          - /url: javascript:__doPostBack('lkb_LogoutErr','')
+    - link "↑ページトップ" [ref=f48e17] [cursor=pointer]:
+      - /url: "#header"

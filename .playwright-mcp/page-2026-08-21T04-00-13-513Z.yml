@@ -1,0 +1,84 @@
+- generic [active] [ref=f19e1]:
+  - generic [ref=f19e2]:
+    - img "国際協力機構｜2028新卒採用" [ref=f19e4]
+    - heading [level=1] [ref=f19e6]:
+      - img "国際協力機構｜2028新卒採用" [ref=f19e7]
+    - generic [ref=f19e8]:
+      - generic [ref=f19e9]:
+        - generic [ref=f19e10]:
+          - heading "ログイン" [level=2] [ref=f19e11]
+          - generic [ref=f19e13]:
+            - generic [ref=f19e14]:
+              - generic [ref=f19e15]:
+                - generic [ref=f19e16]:
+                  - term [ref=f19e17]: ID
+                  - definition [ref=f19e18]:
+                    - textbox [ref=f19e19]
+                - generic [ref=f19e20]:
+                  - term [ref=f19e21]: PASSWORD
+                  - definition [ref=f19e22]:
+                    - textbox [ref=f19e23]
+                - paragraph [ref=f19e24]:
+                  - button "ログイン" [ref=f19e25] [cursor=pointer]
+              - generic [ref=f19e26]:
+                - term [ref=f19e27]:
+                  - checkbox "ログイン情報(ＩＤ)を保存する" [ref=f19e28]
+                - definition [ref=f19e29]: ログイン情報(ＩＤ)を保存する
+            - paragraph [ref=f19e30]: ご自分以外の第三者が使用する可能性のあるパソコン（学校・会社・インターネットカフェ・図書館等）をご利用の場合は、チェックを外してログインされることをお奨めします。
+            - paragraph [ref=f19e32]:
+              - link "ID・PASSWORDを忘れた方はこちら" [ref=f19e33] [cursor=pointer]:
+                - /url: javascript:$('#formRefer').submit();
+        - generic [ref=f19e34]:
+          - heading "初めての方はこちら" [level=2] [ref=f19e35]
+          - generic [ref=f19e37]:
+            - paragraph [ref=f19e38]: 新規登録ボタンより個人情報登録をお願いします。
+            - paragraph [ref=f19e39]:
+              - button "新規登録" [ref=f19e40] [cursor=pointer]
+      - generic [ref=f19e42]:
+        - heading "What's New" [level=2] [ref=f19e43]
+        - generic [ref=f19e44]:
+          - generic [ref=f19e45]:
+            - term [ref=f19e46]: 2026年03月30日
+            - definition [ref=f19e47]:
+              - generic [ref=f19e49]:
+                - text: ※2026年度JICAインターンシップ・プログラムに応募される方は、当マイページに新規登録および応募をお願いいたします。
+                - strong [ref=f19e51]: （27年新卒採用マイページのIDではログインできません。）
+          - generic [ref=f19e52]:
+            - term [ref=f19e53]: 2026年02月01日
+            - definition [ref=f19e54]:
+              - paragraph [ref=f19e56]:
+                - text: マイページに関するお問い合わせは、 下記よりお問い合わせください。
+                - strong [ref=f19e57]:
+                  - link "お問い合わせ" [ref=f19e59] [cursor=pointer]:
+                    - /url: https://support-dd.i-webs.jp/jica_2028/contact/guide
+                - text: ※電話、メールでのお問い合わせは対応いたしかねます。 ※ログイン有無にかかわらず、お問い合わせ可能です。
+          - generic [ref=f19e61]:
+            - term [ref=f19e62]: 2026年02月01日
+            - definition [ref=f19e63]:
+              - generic [ref=f19e64]:
+                - text: ■アプリからマイページへ簡単にログインできるようになります i-web CONNECTをインストールいただくと、次回以降ログインID・パスワードの入力をせずに簡単にマイページへログインいただけます。 ぜひインストールしていただき、以下CONNECTコードでログインしてください。 ※まだログインIDをお持ちでない方は、まずは「新規登録」よりマイページへのご登録をお願いします。 ログインID・パスワードを発行後、アプリよりログインが可能になります。 アプリ名：i-web CONNECT CONNECTコード：
+                - strong [ref=f19e66]: JICA2028
+                - generic [ref=f19e67]:
+                  - link [ref=f19e68] [cursor=pointer]:
+                    - /url: https://apps.apple.com/jp/app/i-web-connect/id1499299153?mt=8
+                    - img "App Store" [ref=f19e69]
+                  - link [ref=f19e70] [cursor=pointer]:
+                    - /url: https://play.google.com/store/apps/details?id=com.humanage.commonapp&pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1
+                    - img "Google Play で手に入れよう" [ref=f19e71]
+    - generic [ref=f19e72]:
+      - heading "SSL（暗号化）で接続します" [level=3] [ref=f19e73]
+      - paragraph [ref=f19e74]: ここから先は、インターネット上にあなたの個人情報が送信されるため、セキュリティ保護の観点からSSL128bit（暗号化）接続となります。 マイページをご利用になるにあたり、「cookieを有効にする」・「SSLを有効にする」設定が必要です。 ブラウザーの設定が分からない方はお使いのブラウザーのヘルプをご覧ください。
+    - paragraph [ref=f19e75]:
+      - generic [ref=f19e76] [cursor=pointer]: このページのトップへ
+  - generic [ref=f19e78]:
+    - list [ref=f19e79]:
+      - listitem [ref=f19e80]:
+        - link "企業ホームページへ" [ref=f19e81] [cursor=pointer]:
+          - /url: https://www.jica.go.jp/recruit/shokuin/index.html
+      - listitem [ref=f19e82]:
+        - link "お問い合わせ" [ref=f19e83] [cursor=pointer]:
+          - /url: javascript:void(0);
+      - listitem [ref=f19e84]:
+        - link "会員規約" [ref=f19e85] [cursor=pointer]:
+          - /url: javascript:void(0);
+    - paragraph [ref=f19e86]: Copyright© Japan International Cooperation Agency

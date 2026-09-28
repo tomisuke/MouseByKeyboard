@@ -1,0 +1,86 @@
+- generic [ref=f53e3]:
+  - banner [ref=f53e4]:
+    - generic [ref=f53e6]:
+      - paragraph [ref=f53e8]: 新卒学生のためのインターンシップ・採用情報サイト
+      - paragraph [ref=f53e12]:
+        - img "キャリタス就活" [ref=f53e13]
+  - main [ref=f53e15]:
+    - generic [ref=f53e17]:
+      - generic [ref=f53e18]:
+        - generic [ref=f53e19]:
+          - heading "マイページログイン" [level=1] [ref=f53e20]
+          - list:
+            - listitem
+            - listitem
+            - listitem
+            - listitem
+            - listitem
+            - listitem
+          - list [ref=f53e22]:
+            - listitem [ref=f53e23]:
+              - generic [ref=f53e25]:
+                - generic [ref=f53e26]: メールアドレス
+                - textbox "career_taro@career-tasu.co.jp" [ref=f53e28]
+            - listitem [ref=f53e29]:
+              - generic [ref=f53e31]:
+                - generic [ref=f53e32]: パスワード
+                - generic [ref=f53e33]:
+                  - textbox "パスワードを入力" [ref=f53e34]
+                  - generic [ref=f53e35] [cursor=pointer]: 表示
+        - list [ref=f53e37]:
+          - listitem [ref=f53e38]:
+            - generic [ref=f53e39] [cursor=pointer]: ログインする
+          - listitem [ref=f53e41]:
+            - link "メールアドレス・パスワードを忘れた方はこちら" [ref=f53e42] [cursor=pointer]:
+              - /url: /login/help/
+      - generic [ref=f53e43]:
+        - heading "キャリタス就活の会員登録がまだの方はこちら" [level=3] [ref=f53e45]
+        - list [ref=f53e47]:
+          - listitem [ref=f53e48]:
+            - link "まずは会員登録" [ref=f53e49] [cursor=pointer]:
+              - /url: /registration/basic/email-verification/
+  - contentinfo [ref=f53e51]:
+    - generic [ref=f53e53]:
+      - generic [ref=f53e54]:
+        - img "Career-tasu" [ref=f53e56]
+        - link [ref=f53e57] [cursor=pointer]:
+          - /url: https://privacymark.jp/
+          - img "プライバシー" [ref=f53e58]
+      - generic [ref=f53e59]:
+        - list [ref=f53e60]:
+          - listitem [ref=f53e61]:
+            - link "キャリタス就活について" [ref=f53e62] [cursor=pointer]:
+              - /url: /about/
+          - listitem [ref=f53e63]:
+            - link "掲載広告について" [ref=f53e64] [cursor=pointer]:
+              - /url: /ad/
+          - listitem [ref=f53e65]:
+            - link "リンクポリシー" [ref=f53e66] [cursor=pointer]:
+              - /url: /link-policy/
+          - listitem [ref=f53e67]:
+            - link "会員規約" [ref=f53e68] [cursor=pointer]:
+              - /url: /membership-agreement/
+        - list [ref=f53e69]:
+          - listitem [ref=f53e70]:
+            - link "著作権" [ref=f53e71] [cursor=pointer]:
+              - /url: /copyright/
+          - listitem [ref=f53e72]:
+            - link "企業の方へ" [ref=f53e73] [cursor=pointer]:
+              - /url: /service/
+          - listitem [ref=f53e74]:
+            - link "ヘルプ・お問い合わせ" [ref=f53e75] [cursor=pointer]:
+              - /url: /help_index/
+        - list [ref=f53e76]:
+          - listitem [ref=f53e77]:
+            - link "個人情報保護方針" [ref=f53e78] [cursor=pointer]:
+              - /url: https://www.career-tasu.co.jp/privacy/
+          - listitem [ref=f53e79]:
+            - link "株式会社キャリタスについて" [ref=f53e80] [cursor=pointer]:
+              - /url: https://www.career-tasu.co.jp/corporate/
+          - listitem [ref=f53e81]:
+            - link "個人情報の取り扱いについて" [ref=f53e82] [cursor=pointer]:
+              - /url: https://www.career-tasu.co.jp/privacy/detail/
+          - listitem [ref=f53e83]:
+            - link "利用者情報の外部送信について" [ref=f53e84] [cursor=pointer]:
+              - /url: /userdata-external-transmission/
+    - generic [ref=f53e85]: 運営会社 株式会社キャリタス 協力 日本経済新聞社 ・日経HRCopyright © Career-tasu, Inc.

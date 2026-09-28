@@ -1,0 +1,127 @@
+- generic [ref=f73e4]:
+  - banner [ref=f73e5]:
+    - link [ref=f73e7] [cursor=pointer]:
+      - /url: https://axol.jp/zw/s/toyokeizai_28/mypage/top
+      - img "株式会社東洋経済新報社のロゴ" [ref=f73e8]
+    - generic [ref=f73e9]:
+      - button "メインコンテンツへ" [ref=f73e10] [cursor=pointer]
+      - navigation [ref=f73e11]:
+        - generic [ref=f73e12]:
+          - generic [ref=f73e13]:
+            - generic [ref=f73e14]: account_circle
+            - generic [ref=f73e15]: 石川 泰地さん
+          - generic [ref=f73e16]:
+            - generic [ref=f73e17]: ログイン回数
+            - generic [ref=f73e18]: 10 回
+          - generic [ref=f73e19]:
+            - generic [ref=f73e20]: 前回ログイン日時
+            - generic [ref=f73e21]: 2026/06/25(木) 20:37:03
+          - button "ログアウト" [ref=f73e23] [cursor=pointer]:
+            - generic [ref=f73e24]: logout
+            - text: ログアウト
+        - list [ref=f73e25]:
+          - listitem [ref=f73e26]:
+            - link "トップ" [ref=f73e27]:
+              - /url: top
+          - listitem [ref=f73e28]:
+            - link "レターボックス 4" [ref=f73e29] [cursor=pointer]:
+              - /url: letter
+              - text: レターボックス
+              - generic [ref=f73e30]: "4"
+          - listitem [ref=f73e31]:
+            - link [ref=f73e32] [cursor=pointer]:
+              - /url: com/4
+              - strong [ref=f73e33]: 9月 1day仕事体験ワークショップ(全職種共通)
+          - listitem [ref=f73e34]:
+            - link [ref=f73e35] [cursor=pointer]:
+              - /url: com/6
+              - strong [ref=f73e36]: 見逃し配信：職種別説明会【記者・編集者】
+          - listitem [ref=f73e37]:
+            - link [ref=f73e38] [cursor=pointer]:
+              - /url: com/7
+              - strong [ref=f73e39]: 見逃し配信：職種別説明会【書籍編集】
+          - listitem [ref=f73e40]:
+            - link [ref=f73e41] [cursor=pointer]:
+              - /url: com/8
+              - strong [ref=f73e42]: 見逃し配信：職種別説明会【データビジネス】
+          - listitem [ref=f73e43]:
+            - link [ref=f73e44] [cursor=pointer]:
+              - /url: com/5
+              - strong [ref=f73e45]: 見逃し配信：業界企業研究セミナー～広告・メディア・出版業界～
+          - listitem [ref=f73e46]:
+            - link [ref=f73e47] [cursor=pointer]:
+              - /url: blog/10
+              - strong [ref=f73e48]: 見逃し配信：WEB会社説明会※全職種共通編
+          - listitem [ref=f73e49]:
+            - link "採用SNS(Instagram)" [ref=f73e50] [cursor=pointer]:
+              - /url: blog/11
+          - listitem [ref=f73e51]:
+            - link "初めてログインされた方へ(28年卒募集要項)" [ref=f73e52] [cursor=pointer]:
+              - /url: blog/3
+          - listitem [ref=f73e53]:
+            - link "社内フォト" [ref=f73e54] [cursor=pointer]:
+              - /url: photo/6
+          - listitem [ref=f73e55]:
+            - link "登録情報修正" [ref=f73e56] [cursor=pointer]:
+              - /url: ment
+          - listitem [ref=f73e57]:
+            - link "お問い合わせ" [ref=f73e58] [cursor=pointer]:
+              - /url: toiawase
+  - main [ref=f73e59]:
+    - heading "トップ" [level=1] [ref=f73e60]
+    - generic [ref=f73e61]:
+      - group "コンテンツカルーセル" [ref=f73e62]:
+        - generic [ref=f73e63]:
+          - generic [ref=f73e64]:
+            - group "4 / 4" [ref=f73e65]:
+              - img "見逃し配信：WEB会社説明会※全職種共通編" [ref=f73e66] [cursor=pointer]
+            - group "1 / 4" [ref=f73e67]:
+              - img "9月 1day仕事体験ワークショップ(全職種共通)" [ref=f73e68] [cursor=pointer]
+            - group "2 / 4" [ref=f73e69]:
+              - img "職種別説明会のアーカイブ動画" [ref=f73e70] [cursor=pointer]
+            - group "3 / 4" [ref=f73e71]:
+              - img "見逃し配信：業界企業研究セミナー～広告・メディア・出版業界～" [ref=f73e72] [cursor=pointer]
+            - group "4 / 4" [ref=f73e73]:
+              - img "見逃し配信：WEB会社説明会※全職種共通編" [ref=f73e74] [cursor=pointer]
+            - group "1 / 4" [ref=f73e75]:
+              - img "9月 1day仕事体験ワークショップ(全職種共通)" [ref=f73e76] [cursor=pointer]
+          - tablist "カルーセルページ" [ref=f73e77]:
+            - button "1枚目のスライドへ" [ref=f73e78] [cursor=pointer]
+            - button "2枚目のスライドへ" [ref=f73e79] [cursor=pointer]
+            - button "3枚目のスライドへ" [ref=f73e80] [cursor=pointer]
+            - button "4枚目のスライドへ" [ref=f73e81] [cursor=pointer]
+          - button "前のスライドへ" [ref=f73e82] [cursor=pointer]: prev
+          - button "次のスライドへ" [ref=f73e83] [cursor=pointer]: next
+          - button "カルーセル再生" [ref=f73e84] [cursor=pointer]: 再生
+          - button "カルーセル停止" [ref=f73e85] [cursor=pointer]: 停止
+      - generic [ref=f73e86]:
+        - heading "石川 泰地さんへのメッセージ" [level=2] [ref=f73e87]
+        - generic [ref=f73e88]:
+          - text: 石川 泰地様 この度は弊社の新卒採用マイページへご登録いただき、誠にありがとうございます。 ご登録のメールアドレス宛にもご案内メールを随時お送りいたしますので、ご了承ください。 ＜お知らせ＞NEW!!
+          - generic [ref=f73e89]: ＜オープンカンパニー開催のお知らせ＞ 東洋経済新報社を知る! 全職種共通 対面型仕事体験1dayワークショップ
+          - text: ■形式 対面 ■場所 東洋経済新報社 本社（東京都中央区日本橋本石町1-2-1） ■日程 9/10(木)、9/17(木)、9/24(木)※いずれか1日にご参加いただきます。 ■時間 13:00～18:30※各日程共通 ■概要 東洋経済新報社ならではの仕事を、1日で体験できるワークショップです。 グループワークや社員との交流を通じて、仕事の面白さややりがい、当社で働く魅力を感じていただけます。 ■1dayワークショップで体験できること ・『会社四季報』を支えるデータビジネスの仕事体験 ・経済メディアならではの記者・編集者の仕事体験 ・ビジネス書を生み出す書籍編集の仕事体験 ・社員との交流・座談会 ■こんな人におすすめ！ ・出版・メディア業界に興味がある方 ・経済やビジネスに関心のある方 ・東洋経済新報社の仕事や社風を知りたい方 ・記者・編集、書籍編集、データビジネスの仕事を比較してみたい方 ■募集人数 各日程20～30名程度 ■その他 ・3日程とも同内容です。応募フォームにて、参加可能な日程（複数選択可）と第一希望の日程をご回答いただきます。 ・参加の可否および参加日程は、8/31（月）までにご案内いたします。 ・参加が決定した方につきましては、できる限りご希望に沿って日程を調整いたしますが、 お申込み状況によっては、第一希望の日程でご参加いただけない場合がございます。予めご了承ください。 ・首都圏外からお越しの方には、交通費を一部支給します（当社規定による上限あり）。 ・宿泊費の支給はございません。宿泊が必要な場合は、ご自身で手配・ご負担をお願いいたします。 ■応募締切 8/30(日)まで
+          - separator [ref=f73e90]
+          - text: 東洋経済新報社を知る! 3days 職種別WEB説明会 形式：オンライン 時間：17:00～18:30（各日共通／質疑応答含む） 日程： 8/3(月) 記者・編集者 8/4(火) 書籍編集 8/5(水) データビジネス 概要： 東洋経済新報社の28卒募集職種について、 現場で働く社員が職種ごとの仕事内容や働き方をお話しします。 「実際にどんな仕事をしているのか」「どんな人が活躍しているのか」など、 採用ページだけでは伝わりにくいリアルを知っていただける説明会です。 当日の主な内容 ・各職種の役割やミッション ・具体的な仕事内容、仕事の進め方 ・やりがいや仕事のおもしろさ ・求める人物像、向いている人 ・今後の選考スケジュール など 参加について ご興味のある日程のみのご参加も可能です！ 採用マイページの申込フォームで参加日程を選択してください。 ただ、職種によって業務内容や求められる役割は大きく異なるため、 「自分に合う仕事を比較しながら考えたい」という方には、3日間の参加がおすすめです。
+          - separator [ref=f73e91]
+          - generic [ref=f73e92]: ●28卒就活生向けスタートアップ講座 開催決定！ ①【見逃し配信中！】WEB説明会
+          - text: 5/19に開催した、WEB説明会のアーカイブ動画を配信いたします。 ＜マイナビTV＞ 東洋経済新報社 WEB説明会～職種別採用と総合メディア企業としてのキャリアの魅力～ 東洋経済とは？会社概要からキャリアイメージ、働き方に関することまで説明しています。 ぜひご視聴ください！ 所要時間：1時間程度※倍速可能です ＜プログラム内容＞ ・東洋経済新報社とは？ ・職種とキャリアイメージ ・今後のイベントスケジュール ・質疑応答
+          - link "動画視聴はこちら" [ref=f73e93] [cursor=pointer]:
+            - /url: https://convert.jobtv.mynavi.jp/rlink?uc=28s67777istv0518
+          - separator [ref=f73e94]
+          - text: ②【見逃し配信中！】業界＆企業研究セミナー 広告・メディア・出版業界について 形式：WEBライブ配信 日時：6月29日(月)17:00~18:00 内容：出版・メディア・広告業界について、 就職四季報編集長含む、新卒採用担当からお伝えします！ そもそも企業研究って何するれば良いの？というところから、 具体的な業界のトレンドまでお話しします。 申込：マイページよりお申込みください。 ※どなた様もご参加可能です！ ＜こんな方におすすめです！＞ まだ就職活動を始めたばかりで不安に思っている方 業界地図・就職四季報・会社四季報の活用方法を知りたい方 出版・メディア・広告業界に興味のある方
+          - separator [ref=f73e95]
+          - generic [ref=f73e96]:
+            - text: ＜
+            - link "2028年卒 新卒採用募集募集職種" [ref=f73e97] [cursor=pointer]:
+              - /url: https://recruit.toyokeizai.net/new-graduate/
+            - text: ＞
+          - text: 本年度は、職種別に新卒採用を実施します。 ●
+          - link "記者・編集者" [ref=f73e98] [cursor=pointer]:
+            - /url: https://recruit.toyokeizai.net/new-graduate/guideline/3231402/
+          - text: （雑誌やWEB媒体での取材執筆、編集、特集企画） ●
+          - link "データビジネス" [ref=f73e99] [cursor=pointer]:
+            - /url: https://recruit.toyokeizai.net/new-graduate/guideline/3231403/
+          - text: （企業調査、財務データ作成、データベース開発・販売） ●
+          - link "書籍編集" [ref=f73e100] [cursor=pointer]:
+            - /url: https://recruit.toyokeizai.net/new-graduate/guideline/3231404/
+          - text: （本の企画立案、著者執筆依頼、原稿の編集・整理） ※住所やメールアドレスなど個人情報に変更があった場合には、 「登録情報修正」ボタンより、修正をお願い致します。 みなさまとお会いできる日をスタッフ一同楽しみにしております。 何卒よろしくお願い申し上げます。

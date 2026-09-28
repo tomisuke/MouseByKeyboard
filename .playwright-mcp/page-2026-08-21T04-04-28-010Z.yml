@@ -1,0 +1,21 @@
+- generic [active] [ref=f60e1]:
+  - generic [ref=f60e2]:
+    - img "株式会社東京商工リサーチ（２０２８）" [ref=f60e4]
+    - generic [ref=f60e5]:
+      - paragraph [ref=f60e6]: タイムアウトしました。
+      - link "戻る" [ref=f60e7] [cursor=pointer]:
+        - /url: javascript:document.form1.submit();
+    - paragraph [ref=f60e8]:
+      - generic [ref=f60e9] [cursor=pointer]: このページのトップへ
+  - generic [ref=f60e11]:
+    - list [ref=f60e12]:
+      - listitem [ref=f60e13]:
+        - link "企業ホームページへ" [ref=f60e14] [cursor=pointer]:
+          - /url: https://www.tsr-net.co.jp/
+      - listitem [ref=f60e15]:
+        - link "お問い合わせ" [ref=f60e16] [cursor=pointer]:
+          - /url: javascript:void(0);
+      - listitem [ref=f60e17]:
+        - link "会員規約" [ref=f60e18] [cursor=pointer]:
+          - /url: javascript:void(0);
+    - paragraph [ref=f60e19]: © TOKYO SHOKO RESEARCH, LTD.

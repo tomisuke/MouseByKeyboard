@@ -1,0 +1,14 @@
+- generic [ref=f40e3]:
+  - heading [level=1] [ref=f40e5]:
+    - link [ref=f40e6] [cursor=pointer]:
+      - /url: ../index.aspx
+      - img "株式会社マクニカ" [ref=f40e7]
+  - generic [ref=f40e8]:
+    - generic [ref=f40e9]:
+      - heading [level=2] [ref=f40e10]
+      - paragraph [ref=f40e12]: 画面がタイムアウトしました。お手数ですが再度ログインし直してください。
+      - paragraph [ref=f40e13]:
+        - link "ログイン画面に戻る" [ref=f40e14] [cursor=pointer]:
+          - /url: javascript:__doPostBack('lkb_LogoutErr','')
+    - link "↑ページトップ" [ref=f40e17] [cursor=pointer]:
+      - /url: "#header"

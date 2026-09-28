@@ -1,0 +1,163 @@
+- generic [ref=f18e3]:
+  - banner [ref=f18e4]:
+    - link [ref=f18e6] [cursor=pointer]:
+      - /url: https://axol.jp/zw/s/inpex_28/mypage/top
+      - img "株式会社ＩＮＰＥＸのロゴ" [ref=f18e7]
+    - generic [ref=f18e8]:
+      - button "メインコンテンツへ" [ref=f18e9] [cursor=pointer]
+      - navigation [ref=f18e10]:
+        - generic [ref=f18e11]:
+          - generic [ref=f18e12]:
+            - generic [ref=f18e13]: account_circle
+            - generic [ref=f18e14]: 石川 泰地さん
+          - generic [ref=f18e15]:
+            - generic [ref=f18e16]: ログイン回数
+            - generic [ref=f18e17]: 7 回
+          - generic [ref=f18e18]:
+            - generic [ref=f18e19]: 前回ログイン日時
+            - generic [ref=f18e20]: 2026/06/15(月) 20:09:49
+          - button "ログアウト" [ref=f18e22] [cursor=pointer]:
+            - generic [ref=f18e23]: logout
+            - text: ログアウト
+        - list [ref=f18e24]:
+          - listitem [ref=f18e25]:
+            - link "トップ" [ref=f18e26] [cursor=pointer]:
+              - /url: top
+          - listitem [ref=f18e27]:
+            - link "レターボックス 17" [ref=f18e28]:
+              - /url: letter
+              - text: レターボックス
+              - generic [ref=f18e29]: "17"
+          - listitem [ref=f18e30]:
+            - link "予約・確認フォーム" [ref=f18e31] [cursor=pointer]:
+              - /url: form
+          - listitem [ref=f18e32]:
+            - link "動画集" [ref=f18e33] [cursor=pointer]:
+              - /url: blog/15
+          - listitem [ref=f18e34]:
+            - link "INPEX若手社員が語る！技術系職種別インタビュー動画(外部へ)" [ref=f18e35] [cursor=pointer]:
+              - /url: https://upload.axol.jp/bx/s/inpex_27/contents/INPEX若手社員が語る！技術系職種別インタビュー動画.pdf
+              - text: INPEX若手社員が語る！技術系職種別インタビュー動画
+              - generic [ref=f18e36]: open_in_new
+          - listitem [ref=f18e37]:
+            - link "採用HP(外部へ)" [ref=f18e38] [cursor=pointer]:
+              - /url: https://www.inpex-recruit.com/
+              - text: 採用HP
+              - generic [ref=f18e39]: open_in_new
+          - listitem [ref=f18e40]:
+            - link "コーポレートHP(外部へ)" [ref=f18e41] [cursor=pointer]:
+              - /url: https://www.inpex.com/
+              - text: コーポレートHP
+              - generic [ref=f18e42]: open_in_new
+          - listitem [ref=f18e43]:
+            - link "登録情報修正" [ref=f18e44] [cursor=pointer]:
+              - /url: ment
+  - main [ref=f18e45]:
+    - heading "レターボックス" [level=1] [ref=f18e46]
+    - generic [ref=f18e47]:
+      - paragraph [ref=f18e48]: 17 通の新着メッセージがあります。
+      - generic [ref=f18e49]:
+        - heading "受信トレイ" [level=2] [ref=f18e51]
+        - list [ref=f18e52]:
+          - listitem [ref=f18e53]:
+            - img "未読" [ref=f18e55]: mail
+            - generic [ref=f18e56]:
+              - link "【INPEX】★最終案内★7/22(水)15:00～エネルギー業界セミナー開催いたします！" [ref=f18e58] [cursor=pointer]:
+                - /url: letter/detail?seq=103553
+              - time [ref=f18e60]: 2026/07/21(火)
+          - listitem [ref=f18e61]:
+            - img "未読" [ref=f18e63]: mail
+            - generic [ref=f18e64]:
+              - link "【INPEX】7/22(水)15:00～エネルギー業界セミナー開催いたします！" [ref=f18e66] [cursor=pointer]:
+                - /url: letter/detail?seq=94609
+              - time [ref=f18e68]: 2026/07/13(月)
+          - listitem [ref=f18e69]:
+            - img "未読" [ref=f18e71]: mail
+            - generic [ref=f18e72]:
+              - link "【INPEX】7/22(水)15:00～エネルギー業界セミナー開催いたします！" [ref=f18e74] [cursor=pointer]:
+                - /url: letter/detail?seq=87675
+              - time [ref=f18e76]: 2026/07/09(木)
+          - listitem [ref=f18e77]:
+            - img "未読" [ref=f18e79]: mail
+            - generic [ref=f18e80]:
+              - link "【INPEX】『文系・理系問わず活躍！世界のエネルギーを支える仕事とは？』動画を公開しました！" [ref=f18e82] [cursor=pointer]:
+                - /url: letter/detail?seq=71412
+              - time [ref=f18e84]: 2026/07/08(水)
+          - listitem [ref=f18e85]:
+            - img "未読" [ref=f18e87]: mail
+            - generic [ref=f18e88]:
+              - link "【INPEX】INPEX 2Days Internship(事務系)申込締切間近です！" [ref=f18e90] [cursor=pointer]:
+                - /url: letter/detail?seq=61499
+              - time [ref=f18e92]: 2026/07/02(木)
+          - listitem [ref=f18e93]:
+            - img "未読" [ref=f18e95]: mail
+            - generic [ref=f18e96]:
+              - link "【INPEX】★大好評につき予約〆切延長★6月16日開催！INPEX×商船三井×JR東日本 業界横断オンライントークセッションのお知らせ" [ref=f18e98] [cursor=pointer]:
+                - /url: letter/detail?seq=50658
+              - time [ref=f18e100]: 2026/06/12(金)
+          - listitem [ref=f18e101]:
+            - img "未読" [ref=f18e103]: mail
+            - generic [ref=f18e104]:
+              - link "【INPEX】★締切間近★6月16日開催！INPEX×商船三井×JR東日本 業界横断オンライントークセッションのお知らせ" [ref=f18e106] [cursor=pointer]:
+                - /url: letter/detail?seq=44790
+              - time [ref=f18e108]: 2026/06/10(水)
+          - listitem [ref=f18e109]:
+            - img "未読" [ref=f18e111]: mail
+            - generic [ref=f18e112]:
+              - link "【INPEX】2026年度技術総合職夏季インターンシップ申込締切間近！" [ref=f18e114] [cursor=pointer]:
+                - /url: letter/detail?seq=39948
+              - time [ref=f18e116]: 2026/06/08(月)
+          - listitem [ref=f18e117]:
+            - img "未読" [ref=f18e119]: mail
+            - generic [ref=f18e120]:
+              - link "【INPEX】オンライン企業説明会 6月回予約開始します！" [ref=f18e122] [cursor=pointer]:
+                - /url: letter/detail?seq=36655
+              - time [ref=f18e124]: 2026/06/04(木)
+          - listitem [ref=f18e125]:
+            - img "未読" [ref=f18e127]: mail
+            - generic [ref=f18e128]:
+              - link "【INPEX】6月16日開催！INPEX×商船三井×JR東日本 業界横断オンライントークセッションのお知らせ" [ref=f18e130] [cursor=pointer]:
+                - /url: letter/detail?seq=35012
+              - time [ref=f18e132]: 2026/06/03(水)
+          - listitem [ref=f18e133]:
+            - img "未読" [ref=f18e135]: mail
+            - generic [ref=f18e136]:
+              - link "【INPEX】当社新CM「INPEXは何してる？」ブルー水素篇を公開しました！" [ref=f18e138] [cursor=pointer]:
+                - /url: letter/detail?seq=32483
+              - time [ref=f18e140]: 2026/06/01(月)
+          - listitem [ref=f18e141]:
+            - img "未読" [ref=f18e143]: mail
+            - generic [ref=f18e144]:
+              - link "【最終案内】株式会社INPEX：完全予約制就活イベント" [ref=f18e146] [cursor=pointer]:
+                - /url: letter/detail?seq=28534
+              - time [ref=f18e148]: 2026/06/01(月)
+          - listitem [ref=f18e149]:
+            - img "未読" [ref=f18e151]: mail
+            - generic [ref=f18e152]:
+              - link "【INPEX】INPEX 2Days Internship(事務系)応募受付開始！" [ref=f18e154] [cursor=pointer]:
+                - /url: letter/detail?seq=30350
+              - time [ref=f18e156]: 2026/06/01(月)
+          - listitem [ref=f18e157]:
+            - img "未読" [ref=f18e159]: mail
+            - generic [ref=f18e160]:
+              - link "【INPEX】インフラ特別LIVE アーカイブ動画公開しました！" [ref=f18e162] [cursor=pointer]:
+                - /url: letter/detail?seq=26033
+              - time [ref=f18e164]: 2026/05/29(金)
+          - listitem [ref=f18e165]:
+            - img "未読" [ref=f18e167]: mail
+            - generic [ref=f18e168]:
+              - link "【INPEX】6月16日開催！INPEX×商船三井×JR東日本 業界横断オンライントークセッションのお知らせ" [ref=f18e170] [cursor=pointer]:
+                - /url: letter/detail?seq=23185
+              - time [ref=f18e172]: 2026/05/25(月)
+          - listitem [ref=f18e173]:
+            - img "未読" [ref=f18e175]: mail
+            - generic [ref=f18e176]:
+              - link "【残席僅か！】株式会社INPEX：完全予約制就活イベント" [ref=f18e178] [cursor=pointer]:
+                - /url: letter/detail?seq=21265
+              - time [ref=f18e180]: 2026/05/25(月)
+          - listitem [ref=f18e181]:
+            - img "未読" [ref=f18e183]: mail
+            - generic [ref=f18e184]:
+              - link "エントリーありがとうございます" [ref=f18e186] [cursor=pointer]:
+                - /url: letter/detail?seq=16830
+              - time [ref=f18e188]: 2026/05/18(月)
